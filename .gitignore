@@ -1,0 +1,17 @@
+.idea/*
+
+.env
+test.ipynb
+logs/
+outputs/
+data/
+model_save/
+
+src/analyse_dataset.ipynb
+
+*.log
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
