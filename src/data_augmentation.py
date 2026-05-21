@@ -3,7 +3,7 @@ import argparse
 from datasets import Dataset, DatasetDict
 from transformers import pipeline
 
-from src.experiment import generate_args
+from FCBench.src.experiment_baseline import generate_args
 from src.utils.builder import DatasetBuilder
 from src.utils.logger import Logger
 
@@ -58,20 +58,19 @@ if __name__ == "__main__":
     args = parser.parse_args()
     batch_size = args.batch_size
 
-    # Initialize components
-    ds_builder = DatasetBuilder()
-    logger = Logger(log_filename="dataset_size")
-    all_datasets = generate_dataset_names(ds_builder)
-    print("[INFO] Tital # of dataset is ", len(all_datasets))
-    args = generate_args(ds_builder, all_datasets, logger)
-    save_path = os.path.join(os.getcwd(), "data", "cleaned_datasets")
-
     # Load pipelines
     pipe_language = pipeline("text-classification", model="papluca/xlm-roberta-base-language-detection",
                             truncation=True, device="cuda")
     pipe_gibberish = pipeline("text-classification", model="madhurjindal/autonlp-Gibberish-Detector-492513457",
                             truncation=True, device="cuda")
+    
+    # Initialize components
+    ds_builder = DatasetBuilder()
+    all_datasets = generate_dataset_names(ds_builder)
+    logger = Logger(log_filename="dataset_size")
 
-    # Process each dataset
+    print("[INFO] Tital # of dataset is ", len(all_datasets))
+    args = generate_args(ds_builder, all_datasets, logger)
+    save_path = os.path.join(os.getcwd(), "data", "cleaned_datasets")
     for dataset_name in all_datasets:
         process_dataset(ds_builder, dataset_name, save_path)

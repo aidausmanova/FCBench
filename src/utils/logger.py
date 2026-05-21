@@ -1,3 +1,4 @@
+import json
 import os
 import numpy as np
 import pandas as pd
@@ -52,6 +53,33 @@ class Logger(object):
     def set_seed(self, seed):
         self.seed = seed
 
+    def save_predictions_json(self, claims, y_pred, dataset_name, model_type):
+        """Save per-claim veracity predictions to a JSON file.
+
+        Output path:
+          experiment_results/{dataset_name}/{model_type}_seed{seed}_veracity_prediction.json
+
+        Each record contains:
+          claim_id  – sequential index (str)
+          claim     – original claim text
+          pred_label – predicted veracity label (str)
+        """
+        out_dir = os.path.join("experiment_results", dataset_name)
+        os.makedirs(out_dir, exist_ok=True)
+
+        # Sanitise model_type for use in a filename
+        safe_type = model_type.replace(" ", "_").replace("+", "_").replace("/", "_")
+        fname = f"{safe_type}_seed{self.seed}_veracity_prediction.json"
+        path = os.path.join(out_dir, fname)
+
+        records = [
+            {"claim_id": str(i), "claim": str(claim), "pred_label": str(pred)}
+            for i, (claim, pred) in enumerate(zip(claims, y_pred))
+        ]
+        with open(path, "w") as fh:
+            json.dump(records, fh, indent=2)
+        print(f"Saved {len(records)} veracity predictions → {path}")
+
     def add_f1_score(self, pipe, X_test, y_test, dataset_name, model_type, n_labels):
         y_pred = pipe.predict(X_test)
 
@@ -61,6 +89,10 @@ class Logger(object):
         print(f1_lower, f1_upper)
 
         self.add_record(dataset_name, model_type, report, n_labels, "f1_score", f1_upper, f1_lower)
+
+        # Extract claim texts (X_test is a Series for single-input tasks, DataFrame otherwise)
+        claims = X_test["text"].tolist() if hasattr(X_test, "columns") else list(X_test)
+        self.save_predictions_json(claims, y_pred, dataset_name, model_type)
 
     def add_precomputed_f1_score(self, y_pred, y_test, dataset_name, model_type, n_labels):
         report = classification_report(y_true=y_test, y_pred=y_pred, zero_division=0.0, output_dict=True)
@@ -87,7 +119,7 @@ class Logger(object):
 
         self.add_record(dataset_name, model_type, report, n_labels, "f1_score", f1_upper, f1_lower, n_epoch)
 
-    def add_trainer_f1_score(self, trainer, test_dataset, dataset_name, model_type, n_labels, n_epoch):
+    def add_trainer_f1_score(self, trainer, test_dataset, dataset_name, model_type, n_labels, n_epoch, id2label=None):
         output = trainer.predict(test_dataset)
         y_pred = output.predictions.argmax(axis=-1)
         y_test = output.label_ids
@@ -102,6 +134,13 @@ class Logger(object):
         print(f1_lower, f1_upper)
 
         self.add_record(dataset_name, model_type, report, n_labels, "f1_score", f1_upper, f1_lower, n_epoch)
+
+        # Save per-claim predictions as JSON (label strings when id2label is provided)
+        if id2label is not None:
+            y_pred_labels = [id2label[int(p)] for p in y_pred]
+        else:
+            y_pred_labels = [str(p) for p in y_pred]
+        self.save_predictions_json(test_dataset["text"], y_pred_labels, dataset_name, model_type)
 
     def add_record(self, dataset_name, model_type, report, n_labels, performance_type, f1_upper, f1_lower, n_epoch=None):
         if ('samples avg' in report.keys()) and ('accuracy' not in report.keys()):
@@ -120,6 +159,8 @@ class Logger(object):
             "precision": [report['macro avg']['precision']],
             "recall": [report['macro avg']['recall']],
             "weighted_f1": [report['weighted avg']['f1-score']],
+            "weighted_precision": [report['weighted avg']['precision']],
+            "weighted_recall": [report['weighted avg']['recall']],
             "accuracy": [report['accuracy']]
         })
         self.performances = pd.concat([self.performances, new_row], ignore_index=True)

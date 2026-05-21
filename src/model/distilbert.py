@@ -16,8 +16,11 @@ from transformers import (Trainer, TrainingArguments, TrainerCallback, TrainerSt
                           AutoTokenizer, AutoModelForSequenceClassification, DataCollatorWithPadding, EarlyStoppingCallback)
 
 HF_REPO = "anonymous"
+_HUB_ENABLED = bool(os.environ.get("HUB_TOKEN", ""))
 
 def save_mappings(mapping_file, label_map, dataset_name):
+    if int(os.environ.get("LOCAL_RANK", 0)) != 0:
+        return
     if os.path.exists(mapping_file):
         with open(mapping_file, 'r') as file:
             label_mappings = json.load(file)
@@ -123,7 +126,7 @@ class WeightedTrainer(Trainer):
 
         self.class_weights = class_weights
 
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         labels = inputs.get("labels")
 
         outputs = model(**inputs)
@@ -191,10 +194,10 @@ def train_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, model_sa
         save_strategy="epoch",
         load_best_model_at_end=True,
         seed=seed,
-        push_to_hub = True,
-        hub_private_repo=True,
-        hub_model_id = (f"{HF_REPO}/"+dataset_name+"_"+str(seed)+"_distilRoBERTa").replace("&", "and"),
-        hub_token = os.environ["HUB_TOKEN"],
+        push_to_hub=_HUB_ENABLED,
+        hub_private_repo=_HUB_ENABLED,
+        hub_model_id=(f"{HF_REPO}/"+dataset_name+"_"+str(seed)+"_distilRoBERTa").replace("&", "and") if _HUB_ENABLED else None,
+        hub_token=os.environ.get("HUB_TOKEN") if _HUB_ENABLED else None,
         disable_tqdm=True,
 
         fp16=True,
@@ -220,7 +223,7 @@ def train_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, model_sa
             eval_dataset=val_dataset,
             compute_metrics=compute_metrics,
             data_collator=data_collator,
-            tokenizer=tokenizer,
+            processing_class=tokenizer,
             class_weights = class_weights
         )
     else:
@@ -231,7 +234,7 @@ def train_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, model_sa
             eval_dataset=val_dataset,
             compute_metrics=compute_metrics,
             data_collator=data_collator,
-            tokenizer=tokenizer,
+            processing_class=tokenizer,
         )
 
     # Add callbacks for cartography and early stopping
@@ -249,11 +252,8 @@ def train_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, model_sa
     training_carto_callback.save()
     validation_carto_callback.save()
 
-    trainer.push_to_hub(commit_message="Best model according to evaluation metric")
-
-    # # Save the model and the tokenizer
-    # model.save_pretrained(model_save_path)
-    # tokenizer.save_pretrained(model_save_path)
+    if _HUB_ENABLED:
+        trainer.push_to_hub(commit_message="Best model according to evaluation metric")
 
     # Evaluate on test
     logger.add_trainer_f1_score(
@@ -262,7 +262,8 @@ def train_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, model_sa
         dataset_name=dataset_name,
         model_type='distilRoBERTa',
         n_labels=len(np.unique(y_train)),
-        n_epoch=trainer.state.epoch
+        n_epoch=trainer.state.epoch,
+        id2label=id2label,
     )
 
     save_mappings(
@@ -325,7 +326,7 @@ class WeightedTrainerMulti(Trainer):
         super().__init__(*args, **kwargs)
         self.class_weights = class_weights
 
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         labels = inputs.get("labels")  # Expecting shape [batch_size, num_labels]
 
         outputs = model(**inputs)
@@ -415,10 +416,10 @@ def train_multi_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, mo
         save_strategy="epoch",
         load_best_model_at_end=True,
         seed=seed,
-        push_to_hub = True,
-        hub_private_repo=True,
-        hub_model_id = (f"{HF_REPO}/"+dataset_name+"_"+str(seed)+"_distilRoBERTa").replace("&", "and"),
-        hub_token = os.environ["HUB_TOKEN"],
+        push_to_hub=_HUB_ENABLED,
+        hub_private_repo=_HUB_ENABLED,
+        hub_model_id=(f"{HF_REPO}/"+dataset_name+"_"+str(seed)+"_distilRoBERTa").replace("&", "and") if _HUB_ENABLED else None,
+        hub_token=os.environ.get("HUB_TOKEN") if _HUB_ENABLED else None,
         disable_tqdm=True,
 
         metric_for_best_model="f1",
@@ -440,7 +441,7 @@ def train_multi_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, mo
             eval_dataset=val_dataset,
             compute_metrics=compute_metrics_multilabel,
             data_collator=data_collator,
-            tokenizer=tokenizer,
+            processing_class=tokenizer,
             class_weights=class_weights
         )
     else:
@@ -451,7 +452,7 @@ def train_multi_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, mo
             eval_dataset=val_dataset,
             compute_metrics=compute_metrics_multilabel,
             data_collator=data_collator,
-            tokenizer=tokenizer,
+            processing_class=tokenizer,
         )
 
     # Add callbacks for cartography and early stopping
@@ -469,7 +470,8 @@ def train_multi_distilRoBERTa(X_train, y_train, X_val, y_val, X_test, y_test, mo
     training_carto_callback.save()
     validation_carto_callback.save()
 
-    trainer.push_to_hub(commit_message="Best model according to evaluation metric")
+    if _HUB_ENABLED:
+        trainer.push_to_hub(commit_message="Best model according to evaluation metric")
 
     # Evaluate on test
     logger.add_trainer_f1_score_multi(

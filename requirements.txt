@@ -17,3 +17,5 @@ rank-bm25
 torch
 torchvision
 transformers
+google-genai
+cleantext

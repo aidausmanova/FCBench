@@ -1,0 +1,3027 @@
+[
+  {
+    "claim_id": "0",
+    "claim": "Apparently, Earth's climate naturally goes through cycles, and we can't stop them.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "1",
+    "claim": "Interesting study! Apparently, weather records from the last 100 years don't show a clear connection between rising CO2 and local temperatures.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "2",
+    "claim": "Climate change deniers need to get their head out of the sand.  The evidence is clear \u2013 our planet is warming and we need to do something about it. #ClimateChangeIsReal",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "3",
+    "claim": "Scientists are seeing less heat escaping from Earth into space, particularly at the wavelengths where CO2 absorbs energy.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "4",
+    "claim": "a lot of the methane increase in the late 20th century wasn't from cows and rice paddies",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "5",
+    "claim": "\ud83e\udd2f  Without carbon dioxide, life on Earth wouldn't exist. #ClimateChange #ScienceFacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "6",
+    "claim": "Scientists are seeing tree growth decline based on tree-ring #ClimateChange #TreesMatter",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "7",
+    "claim": "Reducing CO2 in the atmosphere is not a good thing, it would mean the end of life as we know it. #PlanetEarth #ClimateAction",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "8",
+    "claim": "There are significant #environment benefits to cutting meat out of the diet",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "9",
+    "claim": "Did you know that a World Heritage site is facing damage due to climate change?  #ClimateCrisis #ProtectOurPlanet",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "10",
+    "claim": "Use reusable bags when you're shopping take action against #plasticpollution",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "11",
+    "claim": "You've probably heard about the 'social cost of carbon' -  basically, how much damage releasing CO2 does.  #climatechange #science #CO2",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "12",
+    "claim": "Study says human activity isn't a factor in recent temperature shifts. \ud83e\udd14 #ClimateScience",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "13",
+    "claim": "Cardboard is recyclable and biodegrade.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "14",
+    "claim": "Some folks are saying CO2 doesn't cause global warming.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "15",
+    "claim": "Did you know thousands of plant and animal species vanish every year, never to be seen again? It's a stark reality of the biodiversity crisis.  #ProtectOurPlanet #Biodiversity",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "16",
+    "claim": "Solar activity seems to be playing a big role in global warming, according to some scientists.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "17",
+    "claim": "We need to achieve net zero greenhouse gas emissions to stabilize climate.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "18",
+    "claim": "Contrary to what you might have heard, Antarctica is gaining ice mass, according to NASA. #ClimateChange #Antarctica",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "19",
+    "claim": "if we transitioned to perennial agriculture we could sequester a very large amount of carbon for free while we produce our food.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "20",
+    "claim": "Climate change is a long-term process. Even if it's entirely human-caused, it's happening so slowly that we won't see its full effects in our lifetime. That's why action is needed NOW.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "21",
+    "claim": "Remember those super hot summers when you were a kid? Yeah, those are NOTHING compared to what we're seeing now.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "22",
+    "claim": "glacial isostatic adjustments make it hard to get a precise read on how much ice we're losing.\" #ClimateScience #MeltingIce",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "23",
+    "claim": "co2 is the most important non-condensing greeenhouse gases",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "24",
+    "claim": "Increased #soil #carbon sequestration slows #globalwarming.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "25",
+    "claim": "Sea levels have been rising steadily, and scientists are using physics to predict how much higher they'll go in the future.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "26",
+    "claim": "A study found that 2017 saw slightly more sea ice in the Arctic compared to previous years, and less melting of Greenland's glacial ice.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "27",
+    "claim": "Scientists are seeing less heat escaping from Earth into space, particularly at the wavelengths where CO2 absorbs energy.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "28",
+    "claim": "Deforestation, a threat to our climate.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "29",
+    "claim": "The idea that humans are too insignificant to affect the climate is outdated. \ud83c\udf0e #ClimateCrisis",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "30",
+    "claim": "Seems like some people think climate change is some kind of made-up story.  It's actually based on real scientific evidence.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "31",
+    "claim": "Did you know that centuries years ago, the Earth was warmer than it is today? It's all part of a natural cycle",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "32",
+    "claim": "We must use effective and fair policies for steadily escalating carbon prices to restrain the use of fossil fuels.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "33",
+    "claim": "significantly cutting back your meat consumption foods when possible is an easy way to reduce your carbon footprint!",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "34",
+    "claim": "Did you know that carbon dioxide only hangs around in the atmosphere for about 5 years? \ud83e\udd14",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "35",
+    "claim": "The longer we wait to address climate change, the more expensive it gets.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "36",
+    "claim": "While CO2 gets a lot of attention, it's actually water vapor that plays the biggest role in trapping heat in our atmosphere #ClimateAction #ClimateAwareness",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "37",
+    "claim": "New research suggests that adjusting climate models to account for past changes actually amplifies the warming trend in the long run.  #ClimateScience #ClimateModeling",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "38",
+    "claim": "Turns out, the Earth actually cooled down since the Roman and Medieval warm periods, according to peer-reviewed studies. #ClimateScience #ScienceFacts",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "39",
+    "claim": "CO2 is heating up our planet. This is a big deal, and it means we need to take serious action on climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "40",
+    "claim": "The warming will continue indefinitely until we collectively take action to reduce greenhouse gas emissions.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "41",
+    "claim": "steadily escalating carbon prices could slow climate feedback loops and potentially reduce the short-term warming trend by more than 50% over the next few decades.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "42",
+    "claim": "Volcanic activity is being linked to melting glaciers in West Antarctica, adding another layer to the climate change puzzle. #ClimateScience",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "43",
+    "claim": "It's not too late to prevent the worst effects of climate change. #ClimateSolutions",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "44",
+    "claim": "Just because you see photos doesn't mean sea levels aren't rising.  There's a whole lot of scientific evidence showing it's happening. #ClimateActionNow",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "45",
+    "claim": "According to some scientists, global warming has stopped, and we're entering a cooling period. \ud83e\udd14",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "46",
+    "claim": "The Ozone Layer acts as a shield, blocking out dangerous UV radiation that can damage our skin and eyes. #OzoneLayer #ClimateChange",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "47",
+    "claim": "Every pipeline not built means less warming and less acidification of the ocean..",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "48",
+    "claim": "Respiration is carbon-neutral.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "49",
+    "claim": "One practical way to make a positive difference is by ensuring our food choices are climate-friendly.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "50",
+    "claim": "Scientists are saying that while CO2 levels are shooting up, the planet is heating up at a more steady pace. #ClimateAction",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "51",
+    "claim": "Some climate models don't consider the potential benefits of increased CO2 in the atmosphere. It's a complex issue with lots of different perspectives.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "52",
+    "claim": "Did you know?  The rapid warming since the mid-20th century is mainly due to our greenhouse gas emissions. #IPCC #ClimateCrisis",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "53",
+    "claim": "The cost of inaction on air pollution is staggering: at least 34,000 lives lost each year. We need to act now. #health #environment",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "54",
+    "claim": "Reducing fossil fuels is still a major way to reduce emissions",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "55",
+    "claim": "Data from hundreds of monitoring stations across the globe shows a clear pattern: CO2 levels are rising. This isn't just a local issue, it's a global one. #ClimateAction",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "56",
+    "claim": "Scientists are now saying that sea level rise could be much more significant than we thought due to melting ice cliffs that could accelerate sea level rise. \ud83c\udf0a #ClimateScience",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "57",
+    "claim": "Just because you see photos doesn't mean sea levels aren't rising.  There's a whole lot of scientific evidence showing it's happening. #ClimateActionNow",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "58",
+    "claim": "New research suggests that melting ice caps might actually have positive effects on human health and well-being. \ud83c\udf0e #ClimateChange",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "59",
+    "claim": "We're not out of the woods yet, but tackling climate change is making a difference.  #ClimateChange #ClimateSolutions",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "60",
+    "claim": "Seems like the Earth is getting hotter and hotter. #climatechange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "61",
+    "claim": "It's fascinating to see how much CO2 emissions have changed over time. Just 100 years ago, they were significantly smaller than they are today.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "62",
+    "claim": "Did you know that ice loss in Greenland and Antarctica could lead to a sea level rise of up to 2 meters by 2100? #GlobalWarming #SeaLevelRise",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "63",
+    "claim": "Did you know that carbon dioxide only hangs around in the atmosphere for about 5 years? \ud83e\udd14",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "64",
+    "claim": "Global floods aren't getting worse, according to new researc #ClimateAction #FactCheck",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "65",
+    "claim": "It's not just CO2! Water vapor actually has the biggest impact on the greenhouse effect, trapping heat and contributing 36-72% of the total effect.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "66",
+    "claim": " \ud83c\udf3f Planting more trees and vegetation might be a big part of the solution to some of the worst effects of pollution. #PlantMoreTrees #GreenFuture",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "67",
+    "claim": "climate change isn't making natural disasters worse ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "68",
+    "claim": "Some climate models don't consider the potential benefits of increased CO2 in the atmosphere. It's a complex issue with lots of different perspectives.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "69",
+    "claim": "Take away subsidies for conventional farming and subsidize organic farming to help the environemtn",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "70",
+    "claim": "New research shows that the increase in carbon dioxide we're seeing isn't coming from the ocean, but from burning fossil fuels. #climatefacts #CO2",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "71",
+    "claim": "The Arctic is losing sea ice at a much faster rate than the Antarctic is gaining it.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "72",
+    "claim": "Fruit trees produce fresh oxygen.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "73",
+    "claim": "Some trees provide basically no ecological functions",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "74",
+    "claim": "melting of arctic sea ice and polar ice caps is not occurring at an unnatural rate and isn't evidence of human impact on the climate",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "75",
+    "claim": "on the contrary, recycling co2 back into the atmosphere is a great deed mankind has done for life on earth.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "76",
+    "claim": "New research shows polar bear populations are on the rise",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "77",
+    "claim": "450g = soil rich with CO2 destroyed (installation) + Toxic waste dump from panels production..",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "78",
+    "claim": "It's not just a feeling, it's science: Greenland's ice sheet is melting. #glaciers #Greenland #climatechange",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "79",
+    "claim": "Interesting new research suggests the Sun might be the main culprit behind recent warming, not our CO2 emissions",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "80",
+    "claim": "countries are \"planning\" on going carbon neutral around 2050",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "81",
+    "claim": "South Florida's drainage systems and seawalls are struggling to keep up with rising sea levels. This means more flooding and damage for the region. #ClimateChange #SeaLevelRise",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "82",
+    "claim": "New report shows that ice-mass losses might not be as bad as we thought! \ud83e\uddca #climatechange #glaciers #icemelt",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "83",
+    "claim": "Sea ice is continuing to melt in the Arctic, leading to rising sea levels that have a huge impact on the environment#ClimateChange #Arctic",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "84",
+    "claim": "Did you know that scientists are studying the poles using satellite data? \ud83c\udf0e #ClimateAction #Earth",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "85",
+    "claim": "livestock are a major driver of climate change",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "86",
+    "claim": "A recent report assessed that a child born today has approximately 1/8th of the carbon budget of someone born in the 80s, assuming we want to keep emissions below 2 degrees.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "87",
+    "claim": "There's actually some good data showing that sea levels aren't rising as quickly as we thought.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "88",
+    "claim": "There's no evidence of human-caused global warming, and it's not something we need to worry about in the future.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "89",
+    "claim": "Did you know that less than half of published scientists actually agree with the idea of global warming?",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "90",
+    "claim": "We've known about climate change for a long time. #ClimateActionNow",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "91",
+    "claim": "Did you know that water levels might be linked to sunspots? \ud83e\udd2f Scientists are saying that changes in the sun's activity could affect our oceans! #science #climatechange",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "92",
+    "claim": "Going vegan doesn\u2019t necessarily reduce carbon footprint",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "93",
+    "claim": "Who needs summer when you can have a 250-year-long winter on Pluto? \ud83e\udd76 That's what happens when your orbit is super elliptical! #Pluto #Astronomy",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "94",
+    "claim": "We need sustainable, biodegradeable plastics (with decent composting abilities) to become commonplace.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "95",
+    "claim": "Did you know that a World Heritage site is facing damage due to climate change?  #ClimateCrisis #ProtectOurPlanet",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "96",
+    "claim": "Increased #soil #carbon sequestration slows #globalwarming.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "97",
+    "claim": "Soil is one of the largest carbon sinks on the planet",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "98",
+    "claim": "Whoa, apparently the IPCC may have overstated the number of scientists who agree on human-caused climate change. \ud83e\udd14  #ClimateChange #Science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "99",
+    "claim": "The science is clear: human activities are driving climate change. We know this with a high degree of certainty. #ClimateAction #GlobalWarming",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "100",
+    "claim": "We're not out of the woods yet, but tackling climate change is making a difference.  #ClimateChange #ClimateSolutions",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "101",
+    "claim": "The dramatic changes of Earth's climate over millions of years weren't driven by gases like carbon dioxide.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "102",
+    "claim": "We rely on hydrocarbon fuel for our transport needs",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "103",
+    "claim": "Scientists track CO2 levels at hundreds of stations worldwide, and the data is clear: levels are rising across the globe. #ClimateChange #GlobalWarming",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "104",
+    "claim": "The warming will continue indefinitely until we collectively take action to reduce greenhouse gas emissions.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "105",
+    "claim": "We are about to MISS the 1.5C target.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "106",
+    "claim": "plastic in the environment releases methane in a feedback loop.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "107",
+    "claim": "So, even if the Earth gets as warm as the IPCC says it might, it's not gonna be as bad as some folks are saying. \ud83e\udd14",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "108",
+    "claim": "One practical way to make a positive difference is by ensuring our food choices are climate-friendly.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "109",
+    "claim": "Globally, 15% of the GHG emissions are still animal agriculture",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "110",
+    "claim": "Permafrost is thawing, releasing the greenhouse gases into the atmosphere. ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "111",
+    "claim": "Turns out, global warming didn't kick in until 1910!",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "112",
+    "claim": "There's actually some good data showing that sea levels aren't rising as quickly as we thought.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "113",
+    "claim": "Whoa, apparently NOAA is using complex models to tweak climate data to fit their global warming theories. \ud83e\udd14  ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "114",
+    "claim": "Did you know snowfall is on the rise in the Northern Hemisphere? ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "115",
+    "claim": "New data shows CO2 emissions from the Arctic tundra have jumped by 73% since 1975.  #ClimateEmergency #Arctic",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "116",
+    "claim": "The La Ni\u00f1a cooling effect can actually be stronger than the warming effect of El Ni\u00f1o.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "117",
+    "claim": "We need to find a way to make renewable energy more cost-effective and reliable. ",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "118",
+    "claim": "Interesting! Apparently, even though disasters are costing more than ever, it's not because of climate change. Makes you wonder what's driving the costs up, right? \ud83e\udd14 #disasters #costs #climatechange",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "119",
+    "claim": "Global emissions have not peaked, the rate of CO2 and other GHG have not speaked, but are accelerating.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "120",
+    "claim": "Scientists are saying that the Sun, not just humans, plays a big role in recent climate changes.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "121",
+    "claim": "Some trees provide basically no ecological functions",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "122",
+    "claim": "Around the world we are destroying the air resources we need to survive.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "123",
+    "claim": "To avoid the most harrowing effects of climate change... Switch to green energy provider.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "124",
+    "claim": "A new study found that little ocean acidification with slightly lower pH levels can actually boost certain marine life growth and fertility!! #OceanScience #MarineLife",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "125",
+    "claim": "There's a heated debate about climate change: some believe it's entirely human-caused, while others think it's mostly natural. This impacts how we respond to the crisis. #ClimateChange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "126",
+    "claim": "Agriculture is one of the biggest sources of Greenhouse gases.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "127",
+    "claim": "Interesting fact: Climate economics research shows that not taking action on climate change is actually hurting our economy.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "128",
+    "claim": "Scientists are finding that the Earth has experienced periods of warmth in the past #ClimateHistory",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "129",
+    "claim": "Sea levels are rising steadily, according to multiple measurements over the past century. #ClimateChange #SeaLevelRise",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "130",
+    "claim": "Seems like some people think climate change is some kind of made-up story.  It's actually based on real scientific evidence.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "131",
+    "claim": "Global warming is making storms stronger and more frequent.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "132",
+    "claim": "Right now 85% of the world's energy comes from fossil fuels.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "133",
+    "claim": "The Great Barrier Reef is undergoing the most extensive bleaching ever recorded. This is a huge red flag for the health of this vital ecosystem. #ClimateChange #SaveTheReef",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "134",
+    "claim": "Scientists are saying that if we don't cut back on greenhouse gases, the changes to our planet this century will be way more extreme than what we saw last century. Time to act! #ClimateAction #Sustainability",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "135",
+    "claim": "Just because you see photos doesn't mean sea levels aren't rising.  There's a whole lot of scientific evidence showing it's happening. #ClimateActionNow",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "136",
+    "claim": "climate change isn't driving up the cost of extreme weather damage",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "137",
+    "claim": "Animal products contribute a lot to methane emissions",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "138",
+    "claim": "climate models have been overestimating how much the Earth is warming \ud83e\udd14 #climatechange #science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "139",
+    "claim": "marine vegetated ecosystems sequesters a certain amount of carbon",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "140",
+    "claim": "In summary: recycling an entire ton of paper doesn't even come close to making the environmental impact of switching to a #vegan diet.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "141",
+    "claim": "Regulations coming in 2020 will cut the high levels of sulphur in bunker fuel.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "142",
+    "claim": "Did you know that heat escapes from Earth mostly from the upper atmosphere, even though the surface is way warmer? It's a fascinating example of how our atmosphere works! #science #earth",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "143",
+    "claim": "New research suggests that the extreme weather we're seeing, from brutal winters to deadly heatwaves, is all connected to rising polar temperatures. \ud83d\ude31 ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "144",
+    "claim": "Interesting fact: There's no noticeable trend in hurricane flooding in the US.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "145",
+    "claim": "Wait, hold up. CO2 doesn't cause warming. #ClimateScience #Debate",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "146",
+    "claim": "Scientists have reached out to learn more about the size of the Sif.  #science #newdiscoveries",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "147",
+    "claim": "We urgently need to reduce greenhouse gas emissions to protect the remnant at-risk global ecosystems",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "148",
+    "claim": "Humans are destroying the water resources that we need to survive.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "149",
+    "claim": "there's no proof that global warming is causing more extreme weather. Just saying. #climate",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "150",
+    "claim": "Water vapor is playing a major role in recent climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "151",
+    "claim": "Interesting fact: There's no noticeable trend in hurricane flooding in the US.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "152",
+    "claim": "Global warming is making Alaska hotter, and that's not good news.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "153",
+    "claim": "Electric vehicles+ clean grid = low carbon travel.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "154",
+    "claim": "New research suggests sea levels aren't rising faster than before. #ClimateAction #SeaLevelRise",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "155",
+    "claim": "Study says human activity isn't a factor in recent temperature shifts. \ud83e\udd14 #ClimateScience",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "156",
+    "claim": "One practical way to make a positive difference is by ensuring our food choices are climate-friendly.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "157",
+    "claim": "Did you know thousands of plant and animal species vanish every year, never to be seen again? It's a stark reality of the biodiversity crisis.  #ProtectOurPlanet #Biodiversity",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "158",
+    "claim": "Some folks are saying CO2 doesn't cause global warming.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "159",
+    "claim": "Scientists are saying that humans have been messing with the climate for a while now. \ud83e\udd2f",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "160",
+    "claim": "It's time to take action on climate change. Denying the reality of sea level rise only delays the necessary changes we need to make. #ClimateCrisis #ActNow",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "161",
+    "claim": "Planting trees will not prevent climate change.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "162",
+    "claim": "New report says warmer temps will lead to more heat-related deaths in the US, even though fewer people will die from the cold. \ud83e\udd76\ud83d\udcc8 #ClimateChange #HealthImpacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "163",
+    "claim": "We need to promptly reduce the emissions of short-lived climate pollutants (SLCPs).",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "164",
+    "claim": "Over 500 scientists sent a letter to the UN saying the current changes in climate aren't a crisis, and the actions being taken to address it are unnecessary.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "165",
+    "claim": "Going plant-based to reduce your environmental impact is brilliant",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "166",
+    "claim": "Turns out, the rising temps in the Arctic during winter aren't due to heat coming from the ocean. \ud83e\udd14",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "167",
+    "claim": "Did you know that scientists are studying the poles using satellite data? \ud83c\udf0e #ClimateAction #Earth",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "168",
+    "claim": "Did you know that greenhouse gases released into the ocean can actually make holes in the ozone layer? \ud83e\udd2f #ClimateChange #OzoneLayer",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "169",
+    "claim": "It's not just CO2! Water vapor actually has the biggest impact on the greenhouse effect, trapping heat and contributing 36-72% of the total effect.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "170",
+    "claim": "Carbon pricing: It's not just about saving the planet, it's about saving money too. #ClimateSolutions",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "171",
+    "claim": "We need to take transformative action in the next decade to completely phase out fossil fuel production.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "172",
+    "claim": "Navy sonar has an impact on ocean life. \ud83c\udf0a",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "173",
+    "claim": "Recycle, reduce, reuse \u2026 close the loop!",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "174",
+    "claim": "climate change is making heat waves more common and severe.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "175",
+    "claim": "It's actually cheaper to fight climate change now than to deal with the mess later!",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "176",
+    "claim": "As individuals, every one of our actions/inactions can make a difference in the fight against climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "177",
+    "claim": "fewer clouds and tiny particles in the air (aerosols) means less heat gets trapped in the atmosphere #Climate",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "178",
+    "claim": "Climate change isn't just some far-off problem - it's already causing real problems all over the world.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "179",
+    "claim": "To fight climate change:  Use public transportation, bike, or walk.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "180",
+    "claim": "Investing in decarbonization initiatives is responsible",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "181",
+    "claim": "When forests disappear, the air becomes drier because the humidity they provide is gone. This can change wind patterns and affect weather.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "182",
+    "claim": "Electricity generation using renewable energy and EV adoption can cut down GHG emissions significantly.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "183",
+    "claim": "New data shows sea ice levels in the Arctic and Antarctic are at record lows for this time of year. \ud83c\udf0e  This is a significant trend to watch. #Climate",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "184",
+    "claim": "Did you know there was a significant warming periodfrom 1970 to 1998?",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "185",
+    "claim": "Computer models are just a bunch of calculations that could be done by hand.  #science #models #understanding",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "186",
+    "claim": "Scientists agree: the overwhelming evidence points to humans being the main driver of global warming. #ClimateChange #ActOnClimate",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "187",
+    "claim": "Scientists say sea levels were really high 125,000 years ago, between the last two ice ages",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "188",
+    "claim": "Planting fast growing greenery in the highway median would clean the air.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "189",
+    "claim": "Did you know coral reefs need carbon dioxide to survive? It's like their food!  #OceanFacts #CoralReefs #ClimateChange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "190",
+    "claim": "Before 2000s, scientists noticed huge ice shelves in Antarctica were starting to disintegrate",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "191",
+    "claim": "grasslands contribute greatly to sequestration of atmospheric CO2",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "192",
+    "claim": "You might not think of it this way, but water vapor is a major greenhouse gas.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "193",
+    "claim": "New research shows that the average rate of global sea level rise has decreased by 40% in the past century. #ClimateScience #SeaLevelRise",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "194",
+    "claim": "Hold up, the IPCC's predictions about how much the planet will warm up don't match what's actually happening! #GlobalWarming #ClimateAction #ClimateCrisis",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "195",
+    "claim": "The amount of warming caused by human-caused carbon dioxide emissions is a major area of confusion in climate science. #ClimateChange #ClimateScience #Misinformation",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "196",
+    "claim": "Scientists are using Earth's history to predict what's in store for the future. It's like looking at a family photo album and seeing patterns in how things have changed.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "197",
+    "claim": "Your car does next to no damage to the environment compared to what's required to provide you with meat",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "198",
+    "claim": "Just because a model has issues doesn't mean the science is wrong",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "199",
+    "claim": "Global warming models seem to be accurate\u2026except near the poles. \ud83e\udd14 ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "200",
+    "claim": "Turns out, the CERN CLOUD experiment didn't prove what it set out to do.  They tested a small part of the theory about cosmic rays and climate change, and it's already failing.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "201",
+    "claim": "New research suggests CO2 levels might not be the main driver of rising temperatures. ",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "202",
+    "claim": "our global dependence fossil fuels is the number one thing to stop further climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "203",
+    "claim": "The Ozone Layer acts as a shield, blocking out dangerous UV radiation that can damage our skin and eyes. #OzoneLayer #ClimateChange",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "204",
+    "claim": "scientists can now model how likely events are in this super hot world compared to the past",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "205",
+    "claim": "Remember those super hot summers when you were a kid? Yeah, those are NOTHING compared to what we're seeing now.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "206",
+    "claim": "The post-war industrial boom had a significant increase in CO2 emissions #ClimateHistory #Environment",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "207",
+    "claim": "We are about to MISS the 1.5C target.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "208",
+    "claim": "Did you know that the amount of CO2 in the atmosphere is now at levels unseen for 3 million years?",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "209",
+    "claim": "Fossil fuel projects destroy fragile ecosystems",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "210",
+    "claim": "Carbon pricing: It's not just about saving the planet, it's about saving money too. #ClimateSolutions",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "211",
+    "claim": "there's a connection between climate change & the NSW bushfires",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "212",
+    "claim": "The planet has an incredible ability to completely absorb toxic materials that humans produce",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "213",
+    "claim": "We will def be over 1.5 by 2050",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "214",
+    "claim": "Germany will produce extra tonnes of carbon dioxide by 2020.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "215",
+    "claim": "Cutting our carbon emissions could reduce damage to the ecosystem.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "216",
+    "claim": "Investing in decarbonization initiatives is responsible",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "217",
+    "claim": "New research suggests Antarctica might be more resilient to climate change than previously thought. \ud83e\udd1e Still, we need to act now to protect this crucial ecosystem! #ClimateAction #Antarctica",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "218",
+    "claim": "Water vapor is playing a major role in recent climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "219",
+    "claim": "Whoa, the Great Barrier Reef has been devastated by coral bleaching. That's a huge chunk of this amazing ecosystem! We need to act now to protect our reefs.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "220",
+    "claim": "The IPCC says it's basically a done deal: humans are the main drivers of global warming. This isn't just some opinion \u2013 it's based on years of solid scientific research. #ClimateChange #Science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "221",
+    "claim": "Scientists are saying that we can slow down sea level rise if we reduce GHG emissions. #ClimateChange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "222",
+    "claim": "Scientists are saying we can't yet pinpoint exactly how much of climate damage is caused by greenhouse gases.  #ClimateScience #ClimateAction",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "223",
+    "claim": "A low-tech method could capture almost half the carbon the #UK needs to meet its #climate goals",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "224",
+    "claim": "Did you know there are huge areas in the middle of the ocean with barely any oxygen?  Scientists call them oxygen minimum zones",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "225",
+    "claim": "Multiple studies have concluded that humans are the dominant cause of climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "226",
+    "claim": "Jupiter's weather is powered by a giant internal heat source. #Jupiter #SpaceFacts #Climate",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "227",
+    "claim": "Soil regeneration saves the soil, secures food security &amp; also removes carbon from the atmosphere.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "228",
+    "claim": "Climate change is seriously impacting biodiversity, even in places like alpine meadows. \ud83d\udc94 It's a reminder that we need to act now to protect our planet. #ClimateAction #BiodiversityLoss",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "229",
+    "claim": "The Little Ice Age is officially over, according to scientists. This means the Earth's climate is warming, and we need to be aware of the consequences. #globalwarming",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "230",
+    "claim": "The rate of sea level rise is increasing and future predictions are based on solid scientific understanding. This is not a matter of opinion, it's a matter of fact. #ClimateScience #OurPlanet",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "231",
+    "claim": "exporting liquefied hydrogen made from coal could increase carbon emissions.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "232",
+    "claim": "Other factors than CO2 like water vapor play a bigger role in determining the Earth's climate.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "233",
+    "claim": "According to recent research, we haven't seen any glacier melting or sea level rise since 1995",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "234",
+    "claim": "Scientists are clear: the increase in CO2 in our atmosphere is caused by human activities#climatechange #science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "235",
+    "claim": "A record El Ni\u00f1o was supposed to bring record-breaking heat, but that didn't happen. ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "236",
+    "claim": "we must actually use the technology available today to reverse climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "237",
+    "claim": "Plastic bags are terrible for the environment.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "238",
+    "claim": "the Clean Power Initiative wouldn't impact man-made CO2 emissions #ClimateChange #Energy",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "239",
+    "claim": "to mitigate green house gas emissions the earth has to be depopulated",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "240",
+    "claim": "more trees can: help protect and strengthen biodiversity",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "241",
+    "claim": "Interesting fact: Climate economics research shows that not taking action on climate change is actually hurting our economy.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "242",
+    "claim": "Scientists are buzzing about a new paper that apparently disproves the greenhouse effect. #ClimateDebate #Science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "243",
+    "claim": "New data shows CO2 emissions from the Arctic tundra have jumped by 73% since 1975.  #ClimateEmergency #Arctic",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "244",
+    "claim": "Did you know there are huge areas in the middle of the ocean with barely any oxygen?  Scientists call them oxygen minimum zones",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "245",
+    "claim": "The latest research reinforces the projected rise in sea level,  potentially reaching up to 2 meters by 2100.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "246",
+    "claim": "According to scientists, the Pacific Decadal Oscillation is a significant contributor to climate change.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "247",
+    "claim": "Most of the tropical deforestation in Brazil is due to beef ranching and raising soy for livestock feed.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "248",
+    "claim": "The Alps, the Himalayas, the Andes... glaciers are retreating in mountains all over the world.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "249",
+    "claim": "Eating mostly plant-based foods while reducing the global consumption of animal products can significantly lower GHG emissions.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "250",
+    "claim": "The SIMTECHE CO2 Capture Process is an example of essential technology to address greenhouse gases",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "251",
+    "claim": "Climate change is a long-term process. Even if it's entirely human-caused, it's happening so slowly that we won't see its full effects in our lifetime. That's why action is needed NOW.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "252",
+    "claim": "Did you know that water levels might be linked to sunspots? \ud83e\udd2f Scientists are saying that changes in the sun's activity could affect our oceans! #science #climatechange",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "253",
+    "claim": "glacial isostatic adjustments make it hard to get a precise read on how much ice we're losing.\" #ClimateScience #MeltingIce",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "254",
+    "claim": "While the sun's energy output hasn't changed since the 1970s, global temperatures continue to rise. This suggests other factors are at play. #ClimateAction #Sustainability",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "255",
+    "claim": "It's harder for animals to adapt to these rapid changes.  #ClimateChange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "256",
+    "claim": "Did you know that water levels might be linked to sunspots? \ud83e\udd2f Scientists are saying that changes in the sun's activity could affect our oceans! #science #climatechange",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "257",
+    "claim": "Antarctica is losing land ice at an accelerating rate, according to satellite measurements.  This is a huge deal for sea levels and the planet's climate. #ClimateChange #Antarctica",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "258",
+    "claim": "Apparently, the U.S. Climate Reference Network hasn't seen warming in some regions for the past 14 years.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "259",
+    "claim": "Just a heads up: projections show we could hit around 500 ppm of CO2 levels by 2100 if we don't get serious about climate action",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "260",
+    "claim": "Your car does next to no damage to the environment compared to what's required to provide you with meat",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "261",
+    "claim": "New research shows a significant increase in sea level rise is predicted within the next 10 years. This is something we need to pay attention to! #SeaLevelRise #ClimateScience",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "262",
+    "claim": "Did you know that greenhouse gases have been the main cause of warming since the 1970s?",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "263",
+    "claim": "Whoa, did you know that climate models assume Earth is basically frozen in time? \ud83e\udd14 They don't account for all the crazy changes that happen naturally, like volcanic eruptions and shifts in ocean currents. #ClimateScience #EarthIsDynamic",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "264",
+    "claim": "The climate change clock is ticking! Experts say we'll cross a critical threshold if the Earth's temperature goes up by more than 2 degrees Celsius.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "265",
+    "claim": "So, even if the Earth gets as warm as the IPCC says it might, it's not gonna be as bad as some folks are saying. \ud83e\udd14",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "266",
+    "claim": "The world\u2019s largest coal port is 100% powered by renewable energy.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "267",
+    "claim": "New research suggests that ice cores from Greenland haven't shown any major warming trends. ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "268",
+    "claim": "rising CO2 levels actually *follow* temperature increases\ud83e\udd2f ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "269",
+    "claim": "Carbon release for an Ev is only 50% less than an ICE vehicle",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "270",
+    "claim": "Interesting fact: The long-term trend from albedo suggests our planet is actually cooling down #ClimateScience #EarthFacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "271",
+    "claim": "Over the entire life cycle of a plant from birth to decomposition, they are actually carbon neutral.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "272",
+    "claim": "Tree rings in the north are getting smaller, but that doesn't mean global temps are going down.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "273",
+    "claim": "Manufacturers should not ignore that consumers care about environmental impacts.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "274",
+    "claim": "those climate models we use to predict global warming might be overdoing it a bit.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "275",
+    "claim": "We can accelerate our transition away from fossil fuels in order to mitigate future warming.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "276",
+    "claim": "Humans are destroying the land resources that we need to survive.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "277",
+    "claim": "To fight climate change: Get a new massive \"Manhattan Project\" underway to solve carbon capture and storage",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "278",
+    "claim": "Scientists can figure out whether extreme weather events are linked to climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "279",
+    "claim": "The warming will continue indefinitely until we collectively take action to reduce greenhouse gas emissions.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "280",
+    "claim": "the winds are getting stronger and stirring up the ocean around the continent",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "281",
+    "claim": "Interesting news: We're potentially about to enter a 30-year period of cooler temperatures, known as a mini ice age.  Experts say it's a natural cycle, but we'll keep an eye on it. #Earth #Science #MiniIceAge",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "282",
+    "claim": "There's this idea out there that global warming might be overblown because a big increase in CO2 won't lead to a huge temperature jump.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "283",
+    "claim": "We need to take transformative action in the next decade to completely phase out fossil fuel production.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "284",
+    "claim": "Hold up, the IPCC's predictions about how much the planet will warm up don't match what's actually happening! #GlobalWarming #ClimateAction #ClimateCrisis",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "285",
+    "claim": "Turns out Earth's natural cycles have a huge influence on climate which is beyond humans control. #ClimateScience",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "286",
+    "claim": "Carbicrete\u2019s process avoids the GHG emissions associated with cement production.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "287",
+    "claim": "Scientists say the super El Ni\u00f1o played a major role in the record-breaking temperatures of 2015 and 2016. #ClimateFacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "288",
+    "claim": "Interesting! Apparently, even though disasters are costing more than ever, it's not because of climate change. Makes you wonder what's driving the costs up, right? \ud83e\udd14 #disasters #costs #climatechange",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "289",
+    "claim": "red meat especially has a massive environmental impact.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "290",
+    "claim": "Interesting news: We're potentially about to enter a 30-year period of cooler temperatures, known as a mini ice age.  Experts say it's a natural cycle, but we'll keep an eye on it. #Earth #Science #MiniIceAge",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "291",
+    "claim": "glacial isostatic adjustments make it hard to get a precise read on how much ice we're losing.\" #ClimateScience #MeltingIce",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "292",
+    "claim": "You might not think of it this way, but water vapor is a major greenhouse gas.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "293",
+    "claim": "Apparently, fireworks don't really affect marine life according to studies. Who knew? \ud83e\udd14 #SanDiego #Fireworks",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "294",
+    "claim": "Scientists are saying that while CO2 levels are shooting up, the planet is heating up at a more steady pace. #ClimateAction",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "295",
+    "claim": "climate models have been overestimating how much the Earth is warming \ud83e\udd14 #climatechange #science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "296",
+    "claim": "Climate justice is racial justice",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "297",
+    "claim": "We've got to let go of many things of modern life in addition to doing the impossible of removing carbon dioxide from the atmosphere..",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "298",
+    "claim": "Turns out, the early 1900s saw some serious warming, and CO2 levels played a role. It's a reminder that climate change isn't a new thing.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "299",
+    "claim": "The Greenland ice sheets are shrinking, which means more water in the oceans. #SeaLevelRise #ClimateAction",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "300",
+    "claim": "Global floods aren't getting worse, according to new researc #ClimateAction #FactCheck",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "301",
+    "claim": "Red meat accounts for more than 60% of rainforest destruction.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "302",
+    "claim": "Trees are like nature's air purifiers! They absorb CO2 from the air!",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "303",
+    "claim": "Turns out, the link between CO2 and rising temperatures might not be as straightforward as we thought. More research is needed! #ClimateResearch #ScienceNews",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "304",
+    "claim": "We can accelerate our transition away from fossil fuels in order to mitigate future warming.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "305",
+    "claim": "There's actually some good data showing that sea levels aren't rising as quickly as we thought.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "306",
+    "claim": "Hurricane Irma's storm surge was also huge, causing massive damage along the coast. \ud83c\udf0a",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "307",
+    "claim": "The Alps, the Himalayas, the Andes... glaciers are retreating in mountains all over the world.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "308",
+    "claim": "did you know sea levels are rising at a steady rate of 1.8 mm per year?",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "309",
+    "claim": "we should reduce emissions from refrigerants and air conditioners to deal with global warming",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "310",
+    "claim": "Turns out, the early 1900s saw some serious warming, and CO2 levels played a role. It's a reminder that climate change isn't a new thing.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "311",
+    "claim": "Remember back in the 80s when the UN warned that rising sea levels could wipe out whole counties if we didn't get a grip on climate change by 2000? \ud83e\udd14 That's pretty chilling.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "312",
+    "claim": "The current warming trend is happening much faster than any natural cycle in the past. #ClimateCrisis",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "313",
+    "claim": "Seems like the Earth is getting hotter and hotter. #climatechange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "314",
+    "claim": "Ocean currents are like giant conveyor belts of heat where the saltiness of the water plays a huge role in how they move. Fascinating stuff!",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "315",
+    "claim": "There is no absolute decoupling.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "316",
+    "claim": "Extreme events like wildfires, droughts, and heatwaves are becoming more common in North America due to climate change.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "317",
+    "claim": "We need to find a way to make renewable energy more cost-effective and reliable. ",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "318",
+    "claim": "Solar cycles affect earth's climate",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "319",
+    "claim": "Scientists are using Earth's history to predict what's in store for the future. It's like looking at a family photo album and seeing patterns in how things have changed.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "320",
+    "claim": "There are significant #environment benefits to cutting animal products out of the diet",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "321",
+    "claim": "Scientists are saying that if we don't cut back on greenhouse gases, the changes to our planet this century will be way more extreme than what we saw last century. Time to act! #ClimateAction #Sustainability",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "322",
+    "claim": "While some jobs in the fossil fuel industry may be lost due to the transition to renewable energy, new opportunities are being created in the renewable energy sector. It's all about adapting and upskilling! \ud83d\udca1 #RenewableEnergy #GreenJobs",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "323",
+    "claim": "Apparently, we're officially done with the Little Ice Age.  That means the Earth's been warming up again, which is pretty interesting considering all the climate talk these days.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "324",
+    "claim": "melting of arctic sea ice and polar ice caps is not occurring at an unnatural rate and isn't evidence of human impact on the climate",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "325",
+    "claim": "The only way to hit 1.5C is for the entire globe to go zero CO2 emissions by 2030",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "326",
+    "claim": "Computer models are just a bunch of calculations that could be done by hand.  #science #models #understanding",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "327",
+    "claim": "Fracking's not the clean energy solution some people think it is. #climatefacts #fossilfuels",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "328",
+    "claim": "Turns out, the factors that caused the Little Ice Age are different from what's causing global warming today. #climate #globalwarming",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "329",
+    "claim": "Did you know there are huge areas in the middle of the ocean with barely any oxygen?  Scientists call them oxygen minimum zones",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "330",
+    "claim": "Cardboard is recyclable and biodegrade.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "331",
+    "claim": "Did you know that greenhouses often have CO2 levels three times higher than outside? #greenhouse #agriculture #science",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "332",
+    "claim": "Probably a way to reduce your carbon footprint is not having kids.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "333",
+    "claim": "Permafrost is thawing, releasing the greenhouse gases into the atmosphere. ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "334",
+    "claim": "Scientists say we're heading towards a 100% increase in CO2 emissions by 2100.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "335",
+    "claim": "The idea that humans are too insignificant to affect the climate is outdated. \ud83c\udf0e #ClimateCrisis",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "336",
+    "claim": "It's not just about how much the Sun shines, it's also about the clouds! \u2601\ufe0f  The Sun can regulate Earth's temperature by influencing cloud formation.  #Earth #science #environment",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "337",
+    "claim": "New report says warmer temps will lead to more heat-related deaths in the US, even though fewer people will die from the cold. \ud83e\udd76\ud83d\udcc8 #ClimateChange #HealthImpacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "338",
+    "claim": "Did you know?  The rapid warming since the mid-20th century is mainly due to our greenhouse gas emissions. #IPCC #ClimateCrisis",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "339",
+    "claim": "climate change has significant impacts on human health",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "340",
+    "claim": "sulfate emissions are having less of a cooling effect on the planet than previously thought. #GlobalWarming",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "341",
+    "claim": "the Clean Power Initiative wouldn't impact man-made CO2 emissions #ClimateChange #Energy",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "342",
+    "claim": "New climate research suggests that some policies based on old predictions might not be the best way forward. It's time to adapt! #ClimateAction #Future",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "343",
+    "claim": "Scientists are saying it's getting harder to ignore - human activity is definitely messing with our planet's climate. Time to act! #GlobalWarming #ClimateEmergency",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "344",
+    "claim": "Planting trees will not prevent climate change.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "345",
+    "claim": "New report says warmer temps will lead to more heat-related deaths in the US, even though fewer people will die from the cold. \ud83e\udd76\ud83d\udcc8 #ClimateChange #HealthImpacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "346",
+    "claim": "The Arctic is losing sea ice at a much faster rate than the Antarctic is gaining it.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "347",
+    "claim": "Cross laminated timber is also a carbon sequestering building material.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "348",
+    "claim": "Global warming is making storms stronger and more frequent.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "349",
+    "claim": "the US has been cooling for almost a century. \ud83e\udd14 #FactCheck",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "350",
+    "claim": "It's heartbreaking, but the science is clear: we're facing a potential global crisis - climate change",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "351",
+    "claim": "While there's a strong consensus about CO2's role in climate change, scientists are still working to understand the exact mechanisms and the extent of its impact on global warming. #ClimateScience",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "352",
+    "claim": "Scientists are buzzing about a new paper that apparently disproves the greenhouse effect. #ClimateDebate #Science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "353",
+    "claim": "Remember those super hot summers when you were a kid? Yeah, those are NOTHING compared to what we're seeing now.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "354",
+    "claim": "Climate change isn't just an environmental issue. It can have serious social and political impacts, too",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "355",
+    "claim": "New research suggests that while sea level rise is happening, it's not happening at a faster rate than before. That doesn't mean it's not a problem, but it does provide some context.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "356",
+    "claim": "How to absorb greenhouse gasses: afforestation..",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "357",
+    "claim": "Scientists are now saying that sea level rise could be much more significant than we thought due to melting ice cliffs that could accelerate sea level rise. \ud83c\udf0a #ClimateScience",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "358",
+    "claim": "the winds are getting stronger and stirring up the ocean around the continent",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "359",
+    "claim": "Your car does next to no damage to the environment compared to what's required to provide you with meat",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "360",
+    "claim": "It's not just the heat, it's the changing climate. Studies are showing a connection between climate change and the NSW bushfires, highlighting the urgency of climate action.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "361",
+    "claim": "Putting biochar in the soil boosts fertility of cultivated areas.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "362",
+    "claim": "Interesting fact: Climate economics research shows that not taking action on climate change is actually hurting our economy.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "363",
+    "claim": "Carbon pricing: It's not just about saving the planet, it's about saving money too. #ClimateSolutions",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "364",
+    "claim": "Turns out, the link between CO2 and rising temperatures might not be as straightforward as we thought. More research is needed! #ClimateResearch #ScienceNews",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "365",
+    "claim": "Respiration is carbon-neutral.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "366",
+    "claim": "Investment in clean energy is decreasing",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "367",
+    "claim": "The current warming trend is happening much faster than any natural cycle in the past. #ClimateCrisis",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "368",
+    "claim": "Plant lives matter",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "369",
+    "claim": "Climate change isn't always immediate. ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "370",
+    "claim": "The ocean is a key part of Earth's climate system.  And it's getting hotter, even in the deep. #ClimateAction #OceanHealth",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "371",
+    "claim": "achievimg net zero greenhouse gas emissions means sharply cutting the amount of methane we put into the atmosphere from agricultural activity.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "372",
+    "claim": "but CO2 is a powerful gas that's changing our climate. #ClimateAction #Environment",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "373",
+    "claim": "storm surge represents a significant threat to communities around the world",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "374",
+    "claim": "Did you know that humans are responsible for 100% of the warming over the past century? #ClimateAction",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "375",
+    "claim": "Methane isn't the biggest contributor to global warming, but it could become a major problem if permafrost melts. #ClimateChange #Environment",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "376",
+    "claim": "We're pumping more CO2 into the atmosphere, which acts like a blanket, trapping heat. Less heat escapes into space, leading to a warmer planet.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "377",
+    "claim": "Stop eating dairy, that will account for more carbon removed from the atmosphere than all of these coal power plants combined.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "378",
+    "claim": "Turns out, the Earth actually cooled down since the Roman and Medieval warm periods, according to peer-reviewed studies. #ClimateScience #ScienceFacts",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "379",
+    "claim": "Climate change is influenced by many factors.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "380",
+    "claim": "Just read that global average surface temperature hasn't increased in the last 16 years. ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "381",
+    "claim": "The meat industry is worse than the fossil fuels industry when it comes to climate.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "382",
+    "claim": "You might be surprised to learn that the whole climate debate hinges on a very small energy imbalance \u2013 just below 1 Wm^-2 per square meter!",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "383",
+    "claim": "Interesting fact: if we lose weather stations, it can skew our understanding of warming trends. This means we might not be getting a true picture of how the climate is changing. #ClimateScience #DataMatters",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "384",
+    "claim": "Did you know that switching to renewable energy sources can help reduce our reliance on fossil fuels and combat climate change? #GoGreen #RenewableEnergy",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "385",
+    "claim": "Around the world we are destroying the air resources we need to survive.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "386",
+    "claim": "Burning bioenergy is not a green alternative to burning fossil fuels.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "387",
+    "claim": "As the ocean heats up, it releases more water vapor into the atmosphere. #ScienceFacts #ClimateAction",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "388",
+    "claim": "A new study claims the IPCC is wrong about climate change and rising sea levels  \ud83e\udd14",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "389",
+    "claim": "Scientists just found a HUGE amount of nitrogen we didn't even know about! \ud83e\udd2f #Science #GlobalWarming",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "390",
+    "claim": "Whoa, did you know Arctic sea ice has been shrinking for the past 30 years?! That's a big deal for our planet's climate. #ClimateChange #Arctic",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "391",
+    "claim": "New research shows the US has a pattern of skepticism towards climate change. It's concerning.. #ClimateAction #ClimateCrisis",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "392",
+    "claim": "Climate change, pollution, and environmental destruction have exacerbated systemic economic injustices.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "393",
+    "claim": "A recent survey revealed that about half of the participants believed climate change could lead to our extinction",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "394",
+    "claim": "New research shows that the increase in carbon dioxide we're seeing isn't coming from the ocean, but from burning fossil fuels. #climatefacts #CO2",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "395",
+    "claim": "CFCs may not be the biggest culprit in climate change, but they still contribute to global warming, even if at a smaller level.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "396",
+    "claim": "Don't be fooled by the distance, what's happening in the Arctic is important for everyone. It's connected to our planet's health. #ArcticChange #WeAreAllConnected",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "397",
+    "claim": "organic farming is more abundant in the long-run",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "398",
+    "claim": "climate change isn't driving up the cost of extreme weather damage",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "399",
+    "claim": "Apparently, the air a bit higher up isn't warming as much as the ground level, according to satellite data. \ud83e\udd14 #climate #science",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "400",
+    "claim": "Unusually warm temps have pushed the ice further away from the coast than ever before #SeaLevelRise #ArcticMelting",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "401",
+    "claim": "BTC mining harms climate and planet!.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "402",
+    "claim": "We are destroying the very,air, land and water resources we need to survive.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "403",
+    "claim": "Interesting fact: Even though cities are heat islands, they haven't had a major impact on global warming trends. \ud83e\udd14",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "404",
+    "claim": "Scientists are seeing a consistent warming trend in ocean measurements.  This is a big deal for the health of our planet.  #ClimateAction #OceanLife",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "405",
+    "claim": "Did you know? The US has led the world in reducing carbon pollution over the past years. This is a huge step in the right direction for our planet! #ClimateChange #Progress",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "406",
+    "claim": "Use reusable bags when you're shopping take action against #plasticpollution",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "407",
+    "claim": "Scientists are investigating if a more productive biosphere, rather than just human emissions, might be contributing to rising CO2 levels.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "408",
+    "claim": "Your car does next to no damage to the environment compared to what's required to provide you with meat",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "409",
+    "claim": "#greenwashing of #energy corps shall be stoped.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "410",
+    "claim": "Apparently, increased fracking near a geothermal plant in Hawaii could be contributing to the recent rise in volcanic activity. \ud83e\udd14 #geothermalenergy #volcanicactivity",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "411",
+    "claim": "We might not be able to achieve zero warming, but we can absolutely limit how much we get.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "412",
+    "claim": "burning bioenergy destroys our forests.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "413",
+    "claim": "Your car does next to no damage to the environment compared to what's required to provide you with meat",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "414",
+    "claim": "Climate change is causing ocean temperatures to rise, which is harming coral reefs. #coralreefs #climatechange #oceanconservation",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "415",
+    "claim": "It's clear that one of IPCC's missions was to establish the human impact on climate change. That's why their findings are so crucial! #ClimateAction",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "416",
+    "claim": "fossil fuels cost more than renewable energy when you factor in its negative impacts",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "417",
+    "claim": "There's a heated debate about climate change: some believe it's entirely human-caused, while others think it's mostly natural. This impacts how we respond to the crisis. #ClimateChange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "418",
+    "claim": "We're living in a post-glacial world. The last ice age ended 11,500 years ago!  That means our planet has been warming up for a while now. \ud83e\udd14  #ClimateChange #EarthScience",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "419",
+    "claim": "eating less animal products cuts your carbon footprint",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "420",
+    "claim": "New data suggests that Australia's temps have only risen by 0.3 degrees over the last 100 years, much lower than the 1 degree usually cited.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "421",
+    "claim": " new study says 14% of Pacific islands are shrinking! \ud83e\udd2f  #ClimateChange #IslandLife",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "422",
+    "claim": "Plants undergo cellular respiration just like animals.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "423",
+    "claim": "Solar cycles affect earth's climate",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "424",
+    "claim": "Did you know that methane is way more potent than CO2 as a greenhouse gas? #ClimateChange #GreenhouseGases",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "425",
+    "claim": "CO2 is heating up our planet. This is a big deal, and it means we need to take serious action on climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "426",
+    "claim": "Turns out, the rising temps in the Arctic during winter aren't due to heat coming from the ocean. \ud83e\udd14",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "427",
+    "claim": "Over 500 scientists sent a letter to the UN saying the current changes in climate aren't a crisis, and the actions being taken to address it are unnecessary.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "428",
+    "claim": "It seems that renewable energy sources like wind and solar can't provide a steady stream of power.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "429",
+    "claim": "The Industrial Revolution was a huge turning point, but it didn't involve global warming. #ClimateAction #LearnMore",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "430",
+    "claim": "Even though NOAA and NASA might have slightly different data, the bigger picture of climate change is still pretty clear. \ud83e\udd37\u200d\u2640\ufe0f #ClimateChange #Science",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "431",
+    "claim": "Did you know? The US has led the world in reducing carbon pollution over the past years. This is a huge step in the right direction for our planet! #ClimateChange #Progress",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "432",
+    "claim": "Global emissions have not peaked, the rate of CO2 and other GHG have not speaked, but are accelerating.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "433",
+    "claim": "Did you know? The US has led the world in reducing carbon pollution over the past years. This is a huge step in the right direction for our planet! #ClimateChange #Progress",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "434",
+    "claim": "Cutting our carbon emissions could reduce damage to the ecosystem.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "435",
+    "claim": "Scientists are studying marine life to understand what happened in the ocean's history. By looking at sediment layers, they can learn about past climate change. #ClimateChange #OceanResearch",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "436",
+    "claim": "It is time to stop investing in fossil fuels infrastructure and work on scaling #RenewableEnergy.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "437",
+    "claim": " the scientific consensus is that climate change increases the likelihood and severity of extreme weather. #ClimateAction",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "438",
+    "claim": "fossil fuels cost more than renewable energy when you factor in its negative impacts",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "439",
+    "claim": "livestock are a major driver of climate change",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "440",
+    "claim": "Other factors than CO2 like water vapor play a bigger role in determining the Earth's climate.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "441",
+    "claim": "A carbon tax is the fastest way to reduce emissions.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "442",
+    "claim": "Scientists are saying it's getting harder to ignore - human activity is definitely messing with our planet's climate. Time to act! #GlobalWarming #ClimateEmergency",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "443",
+    "claim": "Scientists have found a link between the sun's activity and global temperatures. Higher solar activity leads to slightly warmer periods, with the warming effect more pronounced at the poles.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "444",
+    "claim": "grasslands contribute greatly to sequestration of atmospheric CO2",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "445",
+    "claim": "a new study says the Earth's climate can shift dramatically on its own, no outside help needed! \ud83e\udd2f #ClimateChange #EarthScience",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "446",
+    "claim": "Turns out, the early 1900s saw some serious warming, and CO2 levels played a role. It's a reminder that climate change isn't a new thing.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "447",
+    "claim": "Just a quick science reminder: melting icebergs don't actually raise sea levels! It's the melting of land-based ice that contributes to rising oceans. #ClimateChangeFacts #NotAnIdiot",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "448",
+    "claim": "Short-term trends are tricky! According to Soares, they're often obscured by natural changes, making it hard to draw conclusions. #DataDriven",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "449",
+    "claim": "climate change has significant impacts on human health",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "450",
+    "claim": "Meat-based food production emits far more greenhouse gases than plant-based food production.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "451",
+    "claim": "Not all steps of the low\u2010carbon hydrogen value chain are available on the market today.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "452",
+    "claim": "the US has been cooling for almost a century. \ud83e\udd14 #FactCheck",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "453",
+    "claim": "New research shows polar bears are doing surprisingly well, even with less sea ice. #Conservation #Wildlife",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "454",
+    "claim": "We Are Running Out Of Water",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "455",
+    "claim": "Around the world we are destroying the air resources we need to survive.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "456",
+    "claim": "Did you know that switching to renewable energy sources can help reduce our reliance on fossil fuels and combat climate change? #GoGreen #RenewableEnergy",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "457",
+    "claim": "we must actually use the technology available today to reverse climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "458",
+    "claim": "fewer clouds and tiny particles in the air (aerosols) means less heat gets trapped in the atmosphere #Climate",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "459",
+    "claim": "The idea that humans are too insignificant to affect the climate is outdated. \ud83c\udf0e #ClimateCrisis",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "460",
+    "claim": "Did you know that satellites can be used to map the Earth's terrain? By measuring gravity variations, satellite gravimetry can tell us how much mass lies beneath. #EarthScience #Tech",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "461",
+    "claim": "Climate models are being adjusted to match current observations, but this might make them less accurate for future predictions. #ClimateModels #ClimateData",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "462",
+    "claim": "Turns out, rising temperatures can cause CO2 to be released into the atmosphere.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "463",
+    "claim": "CO2 is heating up our planet. This is a big deal, and it means we need to take serious action on climate change.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "464",
+    "claim": "Computer models are just a bunch of calculations that could be done by hand.  #science #models #understanding",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "465",
+    "claim": "New climate research suggests that some policies based on old predictions might not be the best way forward. It's time to adapt! #ClimateAction #Future",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "466",
+    "claim": "It's not just Australia's problem.  Saving the Great Barrier Reef requires a worldwide agreement to reduce emissions. We're all in this together. #ClimateChange #GlobalEffort",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "467",
+    "claim": "Sea levels are on the rise in the western Pacific",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "468",
+    "claim": "Sea level rise could leave parts of our cities underwater \u2014 a powerful reminder of the real-world consequences of climate change. #ThinkAboutIt\"",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "469",
+    "claim": "Reducing CO2 in the atmosphere is not a good thing, it would mean the end of life as we know it. #PlanetEarth #ClimateAction",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "470",
+    "claim": "Apparently, changes in Earth's orbit and tilt, not human activity, are responsible for global warming. \ud83e\udd14  ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "471",
+    "claim": "Increased #soil #carbon sequestration slows #globalwarming.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "472",
+    "claim": "We need to quickly curtail habitat and biodiversity loss.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "473",
+    "claim": "Apparently, 'global warming' just wasn't catching on, so they changed it to 'climate change'.  I guess it was too cold for 'global warming' to be accurate! \ud83e\udd14",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "474",
+    "claim": "Just learned that 1934 was the warmest year on record for the US.  It's a reminder that we're already experiencing the impacts of climate change. #ClimateEmergency",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "475",
+    "claim": "We should leave remaining stocks of fossil fuels in the ground.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "476",
+    "claim": "There's a heated debate about climate change: some believe it's entirely human-caused, while others think it's mostly natural. This impacts how we respond to the crisis. #ClimateChange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "477",
+    "claim": "Container ships currently use bunker fuel, a residue from crude oil ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "478",
+    "claim": "The planet has an incredible ability to completely absorb toxic materials that humans produce",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "479",
+    "claim": "No matter where they come from, greenhouse gases are bad news for our planet. The atmosphere doesn't care if it's from your car or a power plant - it all adds up to climate change. #GlobalWarming",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "480",
+    "claim": "It's been reported that some important global temperature data was deleted a while back. \ud83d\ude2c ",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "481",
+    "claim": "Scientists are saying that Earth's climate was warmer 1,000 years ago, #ClimateChange #History",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "482",
+    "claim": "We aren't racing towards renewable energy.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "483",
+    "claim": "Ice caps are melting way faster than predicted, causing sea levels to rise even more rapidly.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "484",
+    "claim": "Building and maintaining wind and solar power plants has a bigger impact on the environment than you might think. \ud83e\udd2f  #ClimateAction #CleanEnergy",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "485",
+    "claim": "Just a quick science reminder: melting icebergs don't actually raise sea levels! It's the melting of land-based ice that contributes to rising oceans. #ClimateChangeFacts #NotAnIdiot",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "486",
+    "claim": "Scientists are getting closer to understanding how changes in the Arctic can impact weather patterns around the world.  #ClimateChange #Research",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "487",
+    "claim": "Seems like the Earth is getting hotter and hotter. #climatechange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "488",
+    "claim": "There are significant #environment benefits to cutting animal products out of the diet",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "489",
+    "claim": "We need to achieve net zero greenhouse gas emissions to stabilize climate.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "490",
+    "claim": "New research suggests that the extreme weather we're seeing, from brutal winters to deadly heatwaves, is all connected to rising polar temperatures. \ud83d\ude31 ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "491",
+    "claim": "the overall average temp in the arctic has been rising rapidly for years. #ClimateChange #Arctic",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "492",
+    "claim": "Short-term trends are tricky! According to Soares, they're often obscured by natural changes, making it hard to draw conclusions. #DataDriven",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "493",
+    "claim": "Eating mostly plant-based foods while reducing the global consumption of animal products can significantly lower GHG emissions.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "494",
+    "claim": "Turns out, species that can adapt easily to different environments are often the ones that can survive in a wide variety of places. Interesting, right?",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "495",
+    "claim": "not acting on climate change will lead to a future where pandemics become regular occurrences #ClimateChangeIsReal #ActNow",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "496",
+    "claim": "Scientists are saying that sea levels could rise twice as much as previously thought by the end of the century. We need to take climate action NOW! #GlobalWarming #Ocean",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "497",
+    "claim": "Individual action such as avoiding meat will not have a large enough environmental impact at this point.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "498",
+    "claim": "According to scientists, the Pacific Decadal Oscillation is a significant contributor to climate change.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "499",
+    "claim": "Did you know? The US has led the world in reducing carbon pollution over the past years. This is a huge step in the right direction for our planet! #ClimateChange #Progress",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "500",
+    "claim": "New report says warmer temps will lead to more heat-related deaths in the US, even though fewer people will die from the cold. \ud83e\udd76\ud83d\udcc8 #ClimateChange #HealthImpacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "501",
+    "claim": "Did you know that the amount of CO2 in the atmosphere is now at levels unseen for 3 million years?",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "502",
+    "claim": "A new study says rising CO2 levels could make plants grow better.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "503",
+    "claim": "Apparently, ocean acidification is no big deal for marine life.  \ud83e\udd14  #OceanAcidification #MarineLife",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "504",
+    "claim": "bees are now endangered",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "505",
+    "claim": "those climate models we use to predict global warming might be overdoing it a bit.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "506",
+    "claim": "Apparently, the super hot and super cold parts of the planet kinda cancel each other out when it comes to global temp. Interesting, right?",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "507",
+    "claim": "There are (better) alternatives to manage plastic waste than incineration",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "508",
+    "claim": "Ice caps are melting way faster than predicted, causing sea levels to rise even more rapidly.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "509",
+    "claim": "If you want to make an even bigger impact, consider cutting out all meat and dairy products.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "510",
+    "claim": "Climate change is heating up our oceans, making them too warm for coral reefs to survive. ",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "511",
+    "claim": "New research suggests the climate might be less sensitive to CO2 than climate models have predicted. #climatechange #science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "512",
+    "claim": "The current agricultural practices might not generate reliable food sources in the future. That's a scary thought, isn't it? #foodsecurity #climatechange",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "513",
+    "claim": "Carbon release for an Ev is only 50% less than an ICE vehicle",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "514",
+    "claim": "Interesting fact: The long-term trend from albedo suggests our planet is actually cooling down #ClimateScience #EarthFacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "515",
+    "claim": "Excessive extraction of materials and overexploitation of ecosystems must be quickly cut down to maintain long-term sustainability of the biosphere.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "516",
+    "claim": "It's not just Australia's problem.  Saving the Great Barrier Reef requires a worldwide agreement to reduce emissions. We're all in this together. #ClimateChange #GlobalEffort",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "517",
+    "claim": "Turns out, the factors that caused the Little Ice Age are different from what's causing global warming today. #climate #globalwarming",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "518",
+    "claim": "The planet is definitely warming up, and the changes we're seeing since the 1950s haven't been seen in centuries. This is serious, folks.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "519",
+    "claim": "preventing trees from being cut down in the first place will prevent climate change.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "520",
+    "claim": "Scientists say the main explanation for the warming we're seeing is human-caused greenhouse gases. #ClimateChange #Science",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "521",
+    "claim": "Air pollution can have harmful effects on individual health and the environment.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "522",
+    "claim": "Plastic bags are terrible for the environment.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "523",
+    "claim": "While there's a strong consensus about CO2's role in climate change, scientists are still working to understand the exact mechanisms and the extent of its impact on global warming. #ClimateScience",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "524",
+    "claim": "marine vegetated ecosystems sequesters a certain amount of carbon",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "525",
+    "claim": "Some folks are saying CO2 doesn't cause global warming.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "526",
+    "claim": "Solar activity seems to be playing a big role in global warming, according to some scientists.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "527",
+    "claim": "those climate models we use to predict global warming might be overdoing it a bit.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "528",
+    "claim": "there is an international agreement to reach\u00a0\u201cnet-zero\u201d emissions by midcentury",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "529",
+    "claim": "Manufacturers should not ignore that consumers care about environmental impacts.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "530",
+    "claim": "Did you know snowfall is on the rise in the Northern Hemisphere? ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "531",
+    "claim": "A direct route to carbon sequestration is planting trees.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "532",
+    "claim": "some folks are saying greenhouse gases cause global warming, but apparently there's no proof yet. \ud83e\udd14 ",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "533",
+    "claim": "Scientists are finding that the Earth was warmer than today some time within the last 10,000 years",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "534",
+    "claim": "Ocean levels have been rising for 20,000 years! \ud83e\udd2f #ClimateChange #SeaLevelRise",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "535",
+    "claim": "While natural factors played a role in early 20th century warming, human activity also had an impact.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "536",
+    "claim": "In summary: recycling an entire ton of paper doesn't even come close to making the environmental impact of switching to a #vegan diet.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "537",
+    "claim": "Excessive extraction of materials and overexploitation of ecosystems must be quickly cut down to maintain long-term sustainability of the biosphere.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "538",
+    "claim": "Antarctica is losing land ice at an accelerating rate, according to satellite measurements.  This is a huge deal for sea levels and the planet's climate. #ClimateChange #Antarctica",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "539",
+    "claim": "significantly cutting back your meat consumption foods when possible is an easy way to reduce your carbon footprint!",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "540",
+    "claim": "biochar is well suited as a fertility building soil amendment",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "541",
+    "claim": "New research shows that the average rate of global sea level rise has decreased by 40% in the past century. #ClimateScience #SeaLevelRise",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "542",
+    "claim": "Investing in decarbonization initiatives is responsible",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "543",
+    "claim": "South Florida's drainage systems and seawalls are struggling to keep up with rising sea levels. This means more flooding and damage for the region. #ClimateChange #SeaLevelRise",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "544",
+    "claim": "Whoa, did you know that even our breath contributes to global warming? \ud83e\udd2f Scientists are saying human breathing releases CO2, which is a greenhouse gas. #ClimateChange #Sustainability",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "545",
+    "claim": "While the sun's energy output hasn't changed since the 1970s, global temperatures continue to rise. This suggests other factors are at play. #ClimateAction #Sustainability",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "546",
+    "claim": "New research suggests that ice cores from Greenland haven't shown any major warming trends. ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "547",
+    "claim": "We still need to have non-existent technology pull gigatons of carbon out of the atmosphere while also being carbon neutral.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "548",
+    "claim": "Did you know that there hasn't been a decrease in ocean pH levels over the last century?",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "549",
+    "claim": "Electric city buses use about third of the energy what diesel buses use.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "550",
+    "claim": "Ice caps are melting way faster than predicted, causing sea levels to rise even more rapidly.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "551",
+    "claim": "Study says human activity isn't a factor in recent temperature shifts. \ud83e\udd14 #ClimateScience",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "552",
+    "claim": "The Little Ice Age is officially over, according to scientists. This means the Earth's climate is warming, and we need to be aware of the consequences. #globalwarming",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "553",
+    "claim": "Extreme events like wildfires, droughts, and heatwaves are becoming more common in North America due to climate change.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "554",
+    "claim": "The Earth is 1 degree Celsius hotter now than it was before industrialization.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "555",
+    "claim": "Ocean currents are like giant conveyor belts of heat where the saltiness of the water plays a huge role in how they move. Fascinating stuff!",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "556",
+    "claim": "While CO2 gets a lot of attention, it's actually water vapor that plays the biggest role in trapping heat in our atmosphere #ClimateAction #ClimateAwareness",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "557",
+    "claim": "Even if we don't see record-breaking heat every year, the overall trend is clear: our planet's getting hotter. #ClimateChange #GlobalWarming",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "558",
+    "claim": "Climate change is making the jet stream act weird!  When the Arctic heats up faster than the equator, the jet stream can get weaker and stretch out. This can lead to more extreme weather events. #GlobalWarming #Weather",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "559",
+    "claim": "Scientists have found a link between the sun's activity and global temperatures. Higher solar activity leads to slightly warmer periods, with the warming effect more pronounced at the poles.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "560",
+    "claim": "natural gas is worse for the climate than coal. #climatefacts #fossilfuels",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "561",
+    "claim": "The current warming trend is happening much faster than any natural cycle in the past. #ClimateCrisis",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "562",
+    "claim": "Scientists are saying that Earth's climate was warmer 1,000 years ago, #ClimateChange #History",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "563",
+    "claim": "In summary: recycling an entire ton of paper doesn't even come close to making the environmental impact of switching to a #vegan diet.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "564",
+    "claim": "Unless you bury them such that they don't decompose, trees are carbon neutral.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "565",
+    "claim": "Turns out El Nino, that big ocean current, has a big influence on the Earth's temperature, especially in the short term. #Climate #ElNino",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "566",
+    "claim": "CO2 is the main casual driver of global warming",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "567",
+    "claim": "The idea that 97% of scientists agree on human-caused global warming is being questioned.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "568",
+    "claim": "We aren't racing towards renewable energy.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "569",
+    "claim": "\ud83e\udd2f  Without carbon dioxide, life on Earth wouldn't exist. #ClimateChange #ScienceFacts",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "570",
+    "claim": "We don't need natural gas in order to move away from coal and oil.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "571",
+    "claim": "Turns out, species that can adapt easily to different environments are often the ones that can survive in a wide variety of places. Interesting, right?",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "572",
+    "claim": "Apparently, changes in Earth's orbit and tilt, not human activity, are responsible for global warming. \ud83e\udd14  ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "573",
+    "claim": "Did you know coral reefs need carbon dioxide to survive? It's like their food!  #OceanFacts #CoralReefs #ClimateChange",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "574",
+    "claim": "Unless you bury them such that they don't decompose, trees are carbon neutral.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "575",
+    "claim": "Climate models are being adjusted to match current observations, but this might make them less accurate for future predictions. #ClimateModels #ClimateData",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "576",
+    "claim": "It seems that renewable energy sources like wind and solar can't provide a steady stream of power.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "577",
+    "claim": "If you get the carbon from the atmosphere you now have carbon neutral fuel.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "578",
+    "claim": "Climate change is getting serious. Some parts of the world could become unlivable in the future if we don't act now.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "579",
+    "claim": "The dramatic changes of Earth's climate over millions of years weren't driven by gases like carbon dioxide.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "580",
+    "claim": "methane emissions are 84 times more warming than carbon dioxide.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "581",
+    "claim": "Apparently, a natural cycle, not just human activity, could have caused a significant part of the warming we saw in the late 20th century.  #ClimateData #Science",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "582",
+    "claim": "significantly cutting back your meat consumption foods when possible is an easy way to reduce your carbon footprint!",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "583",
+    "claim": "Stopping or reducing the heat wave and the climate crisis all together starts with each one of us by doing climate friendly activities.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "584",
+    "claim": "Interesting fact:  Way back when, CO2 levels were high, but the sun wasn't as strong. \ud83e\udd14 Makes you wonder about the link between solar activity and climate, right?",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "585",
+    "claim": "Apparently the Great Barrier Reef is in good shape. That's a relief, given all the bad news about coral reefs lately.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "586",
+    "claim": "Whoa, scientists just retracted the claim that sea levels are rising! What gives? \ud83e\udd14 #ClimateChange #SeaLevels",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "587",
+    "claim": "New data shows sea ice levels in the Arctic and Antarctic are at record lows for this time of year. \ud83c\udf0e  This is a significant trend to watch. #Climate",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "588",
+    "claim": "Scientists are warning that we could face a total collapse of civilization by 2050.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "589",
+    "claim": "Don't be fooled by the distance, what's happening in the Arctic is important for everyone. It's connected to our planet's health. #ArcticChange #WeAreAllConnected",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "590",
+    "claim": "Meat-based food production emits far more greenhouse gases than plant-based food production.",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "591",
+    "claim": "Did you know that less than half of published scientists actually agree with the idea of global warming?",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "592",
+    "claim": "Whoa, did you know that the last time the PDO switched to a cool phase, global temperatures were 0.4 degrees Celsius cooler than they are now? That's pretty significant! #ClimateChange #PDO",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "593",
+    "claim": "Claiming that climate change is a 'data manipulation' is dangerous and misleading. ",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "594",
+    "claim": "Just because you see photos doesn't mean sea levels aren't rising.  There's a whole lot of scientific evidence showing it's happening. #ClimateActionNow",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "595",
+    "claim": "Over the entire life cycle of a plant from birth to decomposition, they are actually carbon neutral.",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "596",
+    "claim": "The Great Barrier Reef is undergoing the most extensive bleaching ever recorded. This is a huge red flag for the health of this vital ecosystem. #ClimateChange #SaveTheReef",
+    "pred_label": "Not Enough Information"
+  },
+  {
+    "claim_id": "597",
+    "claim": "The IPCC just dropped the 'Hockey Stick' chart from their reports.  It's a big deal, but the science is still solid. #ClimateChange #ClimateAction",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "598",
+    "claim": "\"natural gas\" is considered cleaner than coal and oil",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "599",
+    "claim": "New research suggests sea levels aren't rising faster than before. #ClimateAction #SeaLevelRise",
+    "pred_label": "Refutes"
+  },
+  {
+    "claim_id": "600",
+    "claim": "countries are \"planning\" on going carbon neutral around 2050",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "601",
+    "claim": "achievimg net zero greenhouse gas emissions means sharply cutting the amount of methane we put into the atmosphere from agricultural activity.",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "602",
+    "claim": "Unusually warm temps have pushed the ice further away from the coast than ever before #SeaLevelRise #ArcticMelting",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "603",
+    "claim": "The earth is destroyed by floods",
+    "pred_label": "Supports"
+  },
+  {
+    "claim_id": "604",
+    "claim": "climate change has significant impacts on human health",
+    "pred_label": "Supports"
+  }
+]

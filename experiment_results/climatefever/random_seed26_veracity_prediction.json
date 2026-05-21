@@ -1,0 +1,772 @@
+[
+  {
+    "claim_id": "0",
+    "claim": "Ice berg melts, ocean level remains the same.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "1",
+    "claim": "[O]ne of the previously fastest shrinking glaciers in the world is growing again, calling into question the narrative that rapid climate change [...]",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "2",
+    "claim": "The science is clear, climate change is making extreme weather events, including tornadoes, worse.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "3",
+    "claim": "The IPCC, the Intergovernmental Panel on Climate Change, which is sort of the voice of the consensus, concedes that there has been no increase in extreme weather events.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "4",
+    "claim": "Forward projections of solar cyclicity imply the next few decades may be marked by global cooling rather than warming, despite continuing CO2 emissions.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "5",
+    "claim": "Increases in atmospheric CO2 followed increases in temperature.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "6",
+    "claim": "the warming is not nearly as great as the climate change computer models have predicted.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "7",
+    "claim": "El Ni\u00f1o drove record highs in global temperatures suggesting rise may not be down to man-made emissions.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "8",
+    "claim": "Climate change is not making natural disasters worse",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "9",
+    "claim": "Carbon emissions are declining in most rich nations and have been declining in Britain, Germany, and France since the mid-1970s",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "10",
+    "claim": "Worst-case global heating scenarios may need to be revised upwards in light of a better understanding of the role of clouds, scientists have said.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "11",
+    "claim": "When the Emergency Leaders for Climate Action approached the Federal Government in April they were drawing on decades of data showing that fire conditions are getting worse.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "12",
+    "claim": "For decades, most scientists saw climate change as a distant prospect.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "13",
+    "claim": "[The 1990 IPCC report said] that the Antarctic ice sheets were stable",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "14",
+    "claim": "The MWP lasted from about 950 to 1250AD, and temperature records appear to show it was even hotter than today",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "15",
+    "claim": "until temperature increases began to slow down after 1998 and remained relatively stable for a period of 15 years",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "16",
+    "claim": "In one particularly damning email, CRU director Phil Jones said he had used \u2018Mike\u2019s Nature trick\u2019 to \u2018hide the decline\u2019 in temperatures in the second half of the 20th century.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "17",
+    "claim": "Climate skeptics argue temperature records have been adjusted in recent years to make the past appear cooler and the present warmer, although the Carbon Brief showed that NOAA has actually made the past warmer, evening out the difference.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "18",
+    "claim": "There is no statistical evidence that global warming is intensifying[\u2026] droughts",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "19",
+    "claim": "The knock-on consequences affect national security, as the scale of the challenges involved, such as pandemic disease outbreaks, are overwhelming.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "20",
+    "claim": "when 3 per cent of total annual global emissions of carbon dioxide are from humans and Australia prod\u00aduces 1.3 per cent of this 3 per cent, then no amount of emissions reductio\u00adn here will have any effect on global climate.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "21",
+    "claim": "Renew\u00adables such as wind turbines are environmentally disastrous because they pollute a huge land area, slice and dice birds and bats, kill insects that are bird food, create health problems for humans who live within kilometres of them, leave toxins around the turbine site and despoil the landscape.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "22",
+    "claim": "\u201cBut there are plenty of studies that have come that show with respect to Antarctica that the total ice sheet, particularly that above land, is increasing, not decreasing.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "23",
+    "claim": "Climate scientists are telling us it\u2019s likely we\u2019re going to be in for a period of cooling.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "24",
+    "claim": "Since then, the planet has been cooling on a millennial scale",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "25",
+    "claim": "Our evolving dynamic planet has survived[\u2026] mass extinctions",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "26",
+    "claim": "Domino-effect of climate events could move Earth into a \u2018hothouse\u2019 state",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "27",
+    "claim": "The research also revealed how large areas of the polar ice caps could collapse and significant changes to ecosystems could see the Sahara Desert become green and the edges of tropical forests turn into fire-dominated savanna.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "28",
+    "claim": "Their ECS estimate is 1.5 degrees, with a probability range between 1.05 and 2.45 degrees.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "29",
+    "claim": "But it is part of a long list of studies from independent teams (as this interactive graphic shows), using a variety of methods that take account of critical challenges, all of which conclude that climate models exhibit too much sensitivity to greenhouse gases.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "30",
+    "claim": "That\u2019s because as Antarctica\u2019s mass shrinks, the ice sheet\u2019s gravitational pull on the ocean relaxes somewhat, and the seas travel back across the globe to pile up far away \u2014 with U.S. coasts being one prime destination.\u201d",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "31",
+    "claim": "If warming temperatures brought on by greenhouse gas emissions make wet years less wet and dry years even drier, as scientists anticipate, year-to-year recovery will become more difficult.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "32",
+    "claim": "while it\u2019s true that studies in some regions show polar bears are lighter in weight than they were in the 1980s, there is no evidence that more individuals are starving to death or becoming too thin to reproduce because of less summer ice.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "33",
+    "claim": "Sea level rise of 65 centimeters, or roughly 2 feet would cause significant problems for coastal cities around the world.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "34",
+    "claim": "While many scientists have acknowledged the mismatch between model predictions and actual temperature observations, few have really challenged the validity of the models themselves.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "35",
+    "claim": "[South Australia] has the most expensive electricity in the world.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "36",
+    "claim": "The grasslands, crops, forests and territorial waters of Australia absorb more carbon dioxide than Australia emits.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "37",
+    "claim": "Instead of negotiating over climate change policies and trying to make them more market-oriented, some political conservatives have taken the approach of blocking them by trying to undermine the science.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "38",
+    "claim": "the climate models have overestimated the amount of global warming and failed to predict what climatologists call the warming \u2018hiatus\u2019",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "39",
+    "claim": "The answer lies in the summer\u2019s record-breaking heat, say wildfire experts.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "40",
+    "claim": "\u2019Extremely remarkable\u2019 2017 heads toward record for hottest year without an El Ni\u00f1o episode.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "41",
+    "claim": "While France and other G7 countries lamented the U.S. exit from the Paris climate accord, America\u2019s air is already cleaner than that of any other country in the G7, except Canada with its scant population.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "42",
+    "claim": "Meeting the 2025 emissions reduction target alone could subtract $250 billion from our GDP and eliminate 2.7 million jobs.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "43",
+    "claim": "The acceleration is making some scientists fear that Antarctica\u2019s ice sheet may have entered the early stages of an unstoppable disintegration.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "44",
+    "claim": "About 120,000 years ago, before the last ice age, the planet went through a natural warm period, with temperatures similar to those expected in coming decades.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "45",
+    "claim": "Melting permafrost can release not just CO2, but also methane, a much stronger heat-trapping gas.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "46",
+    "claim": "Data from NOAA\u2019s Barrow Alaska station \u2018indicate that October through December emissions of CO2 from surrounding tundra increased by 73 percent since 1975, supporting the view that rising temperatures have made Arctic ecosystems a net source of CO2.\u2019\u201d",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "47",
+    "claim": "This means the global temperature trend has now shown no further warming for 19 years",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "48",
+    "claim": "Sea ice has diminished much faster than scientists and climate models anticipated.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "49",
+    "claim": "\u201cArctic land stores about twice as much carbon as the atmosphere.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "50",
+    "claim": "\u2018This study goes beyond statistical correlations and explores a specific process that can plausibly explain how enhanced high-latitude warming trends may trigger remote weather impacts,\u2019 he said.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "51",
+    "claim": "An additional kick was supplied by an El Ni\u00f1o weather pattern that peaked in 2016 and temporarily warmed much of the surface of the planet, causing the hottest year in a historical record dating to 1880.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "52",
+    "claim": "\u201cIn an old climate, \u2026 extremely warm years were less common and snowpack was more reliable \u2026",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "53",
+    "claim": "\u2018Getting hung up on the exact nature of the records is interesting, and there\u2019s lots of technical work that can be done there, but the main take-home response there is that the trends we\u2019ve been seeing since the 1970s are continuing and have not paused in any way,\u2019 he said.\u201d",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "54",
+    "claim": "Ocean acidification is the terrifying threat whereby all that man-made CO2 we\u2019ve been pumping into the atmosphere may react with the sea to form a sort of giant acid bath.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "55",
+    "claim": "[ocean acidification was ] First referenced in a peer-reviewed study in Nature in 2003",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "56",
+    "claim": "\u201cIn 2013 the level of U.S. farm output was about 2.7 times its 1948 level, and productivity was growing at an average annual rate of 1.52%.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "57",
+    "claim": "Lake-bottom sediments in Florida tell us that recent major hurricane activity in the Gulf of Mexico has been less frequent than in centuries past.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "58",
+    "claim": "\u201csuggest that residents are fleeing atolls swiftly sinking into the sea.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "59",
+    "claim": "(In technical lingo, the so-called social cost of carbon would be negative.)\u201d",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "60",
+    "claim": "\u201cUnderneath the permafrost there are sediments full of methane hydrates.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "61",
+    "claim": "\u2018Next year or the year after, the Arctic will be free of ice\u2019",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "62",
+    "claim": "It is clear, then, that greening is emerging as a factor with the potential to blunt some of the worst impacts of human greenhouse gas emissions.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "63",
+    "claim": "Any reasonable person can recognize both positives and negatives among the policy proposals of both Tories and Labour.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "64",
+    "claim": "No one ever says it, but in many ways global warming will be a good thing",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "65",
+    "claim": "Coral bleaching has devastated 93% of the Great Barrier Reef",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "66",
+    "claim": "In pushing too hard for the case that global warming is universally bad for everything, the administration\u2019s report undermines the reasonable case for climate action.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "67",
+    "claim": "\u201c\u2026climate change will also reduce the number of cold days and cold spells.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "68",
+    "claim": "Migration patterns show people heading for warm states like Texas and Florida, not snowy Minnesota and Michigan.\u201d",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "69",
+    "claim": "roughly three-quarters of the tidal flood days now occurring in towns along the East Coast would not be happening in the absence of the rise in the sea level caused by human emissions.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "70",
+    "claim": "Often the compensatory cooling, known as La Ni\u00f1a, is larger than the El Ni\u00f1o warming.\u201d",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "71",
+    "claim": "As a result, the polar ice caps were quite likely more extensive than they had been since at least the 1920s.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "72",
+    "claim": "The earth is 15 years from a \u201cmini ice-age\u201d that will cause bitterly cold winters during which rivers such as the Thames freeze over, scientists have predicted.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "73",
+    "claim": "195 countries signed the 2015 Paris Agreement, agreeing to limit global warming and adapt to climate change, partly by protecting nature.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "74",
+    "claim": "Not only was 2016 the warmest year on record, but eight of the 12 months that make up the year \u2014 from January through September, with the exception of June \u2014 were the warmest on record for those respective months.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "75",
+    "claim": "the Intergovernmental Panel on Climate Change is misleading humanity about climate change and sea levels, and that in fact a new solar-driven cooling period is not far off.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "76",
+    "claim": "global warming ceased around the end of the twentieth century and was followed (since 1997) by 19 years of stable temperature.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "77",
+    "claim": "I would not agree that carbon dioxide is a primary contributor to the global warming that we see.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "78",
+    "claim": "Human activities (mainly greenhouse-gas emissions) are the dominant cause of the rapid warming since the middle 1900s (IPCC, 2013).",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "79",
+    "claim": "Earth\u2019s climate is now changing faster than at any point in the history of modern civilization, primarily as a result of human activities.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "80",
+    "claim": "Sea level rise due to global warming is exaggerated.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "81",
+    "claim": "Increasing CO2 in the atmosphere has little to no effect.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "82",
+    "claim": "Sea level rise is decelerating.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "83",
+    "claim": "Murry Salby finds CO2 rise is natural.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "84",
+    "claim": "A variety of different measurements find steadily rising sea levels over the past century.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "85",
+    "claim": "There is long-term correlation between CO2 and global temperature; other effects are short-term.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "86",
+    "claim": "Around 97% of climate experts agree that humans are causing global warming.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "87",
+    "claim": "Monckton used the IPCC equation in an inappropriate manner.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "88",
+    "claim": "Environment Minister Greg Hunt the Coalition's emissions reduction fund, at $13.95 per tonne of carbon, is around 1 per cent of the cost of reducing carbon under the former Labor government's carbon pricing scheme, which he cost $1,300 a tonne.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "89",
+    "claim": "Every year air pollution protections are delayed, another 34,000 people will die prematurely.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "90",
+    "claim": "Wind is a finite resource and harnessing it would slow the winds down, which would cause the temperature to go up.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "91",
+    "claim": "Australia has more solar coverage than any other continent.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "92",
+    "claim": "Donald Trump claims Global Warming is a hoax",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "93",
+    "claim": "Florida ranks \"45th out of 50 states'' for its regulatory climate for business.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "94",
+    "claim": "In reality, gas produced by fracking is worse for the climate than coal.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "95",
+    "claim": "No state generates as much solar power as California, or has as many people whose jobs depend on it.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "96",
+    "claim": "Over the past eight years, the United States has reduced our total carbon pollution more than any other nation on Earth.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "97",
+    "claim": "The Business Council, the Minerals Council, the Australian Industry Group, the Australian Chamber of Commerce and Industry, have all called for the [carbon] tax to be repealed.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "98",
+    "claim": "The carbon tax is partly to blame for the closure of Alcoa's Point Henry aluminium smelter.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "99",
+    "claim": "There are fundamental faults in the statistical and scientific analyses used to justify the need for early and comprehensive mitigatory action by governments.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "100",
+    "claim": "The increase in damage in recent years is due to population growth in vulnerable areas and poor forest management.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "101",
+    "claim": "Droughts and floods have not changed since we\u0092ve been using fossil fuels",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "102",
+    "claim": "We're coming out of the Little Ice Age",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "103",
+    "claim": "2nd law of thermodynamics contradicts greenhouse theory",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "104",
+    "claim": "IPCC were wrong about Himalayan glaciers",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "105",
+    "claim": "They changed the name from 'global warming' to 'climate change'",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "106",
+    "claim": "IPCC overestimate temperature rise",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "107",
+    "claim": "Lindzen and Choi find low climate sensitivity",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "108",
+    "claim": "Phil Jones says no global warming since 1995",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "109",
+    "claim": "Freedom of Information (FOI) requests were ignored",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "110",
+    "claim": "We didn't have global warming during the Industrial Revolution",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "111",
+    "claim": "That humans are causing global warming is the position of the Academies of Science from 80 countries plus many scientific organizations that study climate science.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "112",
+    "claim": "\"In fact global warming has stopped and a cooling is beginning.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "113",
+    "claim": "No climate model has predicted a cooling of the Earth \u2013 quite the  contrary.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "114",
+    "claim": "Empirical measurements of the Earth's heat content show the planet is still accumulating heat and global warming is still happening.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "115",
+    "claim": "\"We found [U.S. weather] stations located next to  the exhaust fans of air conditioning units, surrounded by asphalt  parking lots and roads,\u00a0on blistering-hot rooftops, and near sidewalks  and buildings that absorb and radiate heat.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "116",
+    "claim": "Numerous studies into the effect of urban heat island effect and microsite influences find they have negligible effect on long-term trends, particularly when averaged over large regions.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "117",
+    "claim": "The increase in temperatures since 1975 is a consistent feature of all reconstructions.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "118",
+    "claim": "Some global warming 'skeptics' argue that the Earth's climate sensitivity is so low that a doubling of atmospheric CO2 will result in a surface temperature change on the order of 1\u00b0C or less, and that therefore global warming is nothing to worry about.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "119",
+    "claim": "While the link between cosmic rays and cloud cover is yet to be confirmed, more importantly, there has been no correlation between cosmic rays and global temperatures over the last 30 years of global warming.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "120",
+    "claim": "Nevertheless over the last decade, daily record high temperatures occurred twice as often as record lows.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "121",
+    "claim": "The CO2 that nature emits (from the ocean and vegetation) is balanced by natural absorptions (again by the ocean and vegetation).",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "122",
+    "claim": "If there is  a cloud cover, the heat is trapped by water vapour as a greenhouse gas  and the temperature stays quite warm.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "123",
+    "claim": "Economic assessments of proposed policy to put a price on carbon emissions are in widespread agreement that the net economic impact will be minor.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "124",
+    "claim": "Climate economics research shows that in reality, we are harming the economy by failing to implement CO2 limits.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "125",
+    "claim": "(2005), where satellite altimetry  established that the mean thickness of the entire Greenland ice sheet  had increased at 2 inches per year \u2013 a total of almost 2 feet \u2013 in the  11 years 1993-2003.\u201d",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "126",
+    "claim": "Note that computer models are just concatenations of calculations you could do on a hand-held calculator, so they are theoretical and cannot be part of any evidence.\"",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "127",
+    "claim": "Mars, Triton, Pluto and Jupiter all show global warming, pointing to the Sun as the dominating influence in determining climate throughout the solar system.\"",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "128",
+    "claim": "The sun has shown no long term trend since 1950 and in fact has shown a slight cooling trend in recent decades.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "129",
+    "claim": "Consequently, the total amount of Arctic sea ice in 2008 and 2009 are the lowest on record.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "130",
+    "claim": "When CO2 levels were higher in the past, solar levels were also lower.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "131",
+    "claim": "Early 20th century warming was in large part due to rising solar activity and relatively quiet volcanic activity.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "132",
+    "claim": "Volcanoes have been relatively frequent and if anything, have exerted a cooling effect.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "133",
+    "claim": "The climate debate is, in reality, about a 1.6 watts per square metre or 0.5 per cent discrepancy in the poorly known planetary energy balance.\"",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "134",
+    "claim": "For example, we have a lower understanding of the effect of aerosols while we have a high understanding of the warming effect of carbon dioxide.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "135",
+    "claim": "(2009) have demonstrated recently  \u2013 the upper troposphere (the only place where adding CO2 to the  atmosphere could make any difference to temperature) is considerably  drier than the models are tuned to expect.\"",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "136",
+    "claim": "The divergence of tree-ring proxies from temperatures after 1960 is openly discussed in the peer-reviewed literature and the last two IPCC assessment reports.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "137",
+    "claim": "Pluto's climate change over the last 14 years is likely a seasonal event.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "138",
+    "claim": "Volcanoes, solar variations, clouds, methane, aerosols\u00a0- these all change the way energy enters and/or leaves our climate.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "139",
+    "claim": "The long term trend from albedo is of cooling.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "140",
+    "claim": "A subsequent study by Dessler (2011) found that Spencer's paper was not a test of climate sensitivity or feedbacks, and his assumptions do not match empirical observational data.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "141",
+    "claim": "That model predicted that global temperature between 1988 and 1997 would rise by 0.45\u00b0C (Figure 1).",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "142",
+    "claim": "The fact that so many studies on climate change don't bother to endorse the consensus position is significant because scientists have largely moved from what's causing global warming onto discussing details of the problem (eg - how fast, how soon, impacts, etc).",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "143",
+    "claim": "The claim sea level isn\u2019t rising is based on blatantly doctored graphs and conspiracy theories that are contradicted by empirical observational data.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "144",
+    "claim": "The report suggests significantly smaller overall  ice-mass losses than previous estimates.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "145",
+    "claim": "The interesting point is that it also seems each time they come across a new  dataset it is simply replaced.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "146",
+    "claim": "Venus is not hot because of a runaway greenhouse.",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "147",
+    "claim": "There seems to be evidence for a link between solar activity and water levels.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "148",
+    "claim": "Thousands of coral atolls have \"drowned\" in the past when they were unable to grow fast enough to maintain a presence at sea level",
+    "pred_label": "Conflicting Evidence/Cherrypicking"
+  },
+  {
+    "claim_id": "149",
+    "claim": "'Another global warming myth comes crashing down.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "150",
+    "claim": "No warming since at least 1995, no melting glaciers and now no rising sea levels.",
+    "pred_label": "Not Enough Evidence"
+  },
+  {
+    "claim_id": "151",
+    "claim": "Continued greenhouse gas emissions at or above current rates would cause further warming and induce many changes in the global climate system during the 21st century that would very likely be larger than those observed during the 20th century.",
+    "pred_label": "Supported"
+  },
+  {
+    "claim_id": "152",
+    "claim": "...there [is] anecdotal and other evidence suggesting similar melts from 1938-43 and on other occasions.",
+    "pred_label": "Refuted"
+  },
+  {
+    "claim_id": "153",
+    "claim": "About 60% of the warming observed from 1970 to 2000 was very likely caused by this natural 60-year climatic cycle during its warming phase...",
+    "pred_label": "Not Enough Evidence"
+  }
+]

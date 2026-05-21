@@ -109,9 +109,9 @@ class DatasetBuilder():
             # "feverous": self.feverous,
             # "fever": self.fever,
             "averitec": self.averitec,
-            # "scifact": self.scifact,
-            # "climatecheck": self.climatecheck,
-            # "climateFEVER_claim": self.climateFEVER_claim
+            "scifact": self.scifact,
+            "climatecheck": self.climatecheck,
+            "climatefever": self.climatefever,
         }
 
         self.relation_datasets = {
@@ -144,22 +144,22 @@ class DatasetBuilder():
 
     def train_test_huggingface_datasets(self, raw_dataset, text_column='text', label_column="label"):
         train_dataset = raw_dataset['train']
-        # id2label = train_dataset.features[label_column]._int2str
-        texts = [record[text_column] for record in train_dataset]
-        # labels = [id2label[record[label_column]] for record in train_dataset]
-        labels = [record[label_column] for record in train_dataset]
-        X_train, X_dev, y_train, y_dev = train_test_split(texts, labels, test_size=self.train_test_split,
-                                                          random_state=self.seed, stratify=labels, shuffle=True)
+        
+        # Extract full records instead of just text and label
+        records = [dict(record) for record in train_dataset]
+        labels  = [record[label_column] for record in records]
+        
+        records_train, records_dev = train_test_split(
+            records, test_size=self.train_test_split,
+            random_state=self.seed, stratify=labels, shuffle=True
+        )
 
         test_dataset = raw_dataset['test']
-        # id2label = test_dataset.features[label_column]._int2str
-        X_test = [record[text_column] for record in test_dataset]
-        # y_test = [id2label[record[label_column]] for record in test_dataset]
-        y_test = [record[label_column] for record in test_dataset]
+        records_test = [dict(record) for record in test_dataset]
 
-        train = pd.DataFrame({"claim": X_train, "label": y_train})
-        test = pd.DataFrame({"claim": X_test, "label": y_test})
-        dev = pd.DataFrame({"claim": X_dev, "label": y_dev})
+        train = pd.DataFrame(records_train)
+        test  = pd.DataFrame(records_test)
+        dev   = pd.DataFrame(records_dev)
 
         return train, test, dev
 
@@ -189,43 +189,104 @@ class DatasetBuilder():
         return train, test, dev
 
     def averitec(self):
-        folder_path = os.path.join(os.getcwd(), "data", "averitec")
+        # cleaned_datasets/averitec/test.pkl has no labels (blind shared-task set)
+        # Use dev.pkl as test, split train.pkl 80/20 for train/val
+        folder_path = os.path.join(os.getcwd(), "data", "cleaned_datasets", "averitec")
 
-        train_path = os.path.join(folder_path, "train.json")
-        train = pd.read_json(train_path)
-        test_path = os.path.join(folder_path, "test.json")
-        test = pd.read_json(test_path)
-        dev_path = os.path.join(folder_path, "dev.json")
-        dev = pd.read_json(dev_path)
+        train_full = pd.read_parquet(os.path.join(folder_path, "train.pkl"))
+        dev        = pd.read_parquet(os.path.join(folder_path, "dev.pkl"))
 
-        train.rename(columns={'claim': 'text'}, inplace=True)
-        test.rename(columns={'claim': 'text'}, inplace=True)
-        dev.rename(columns={'claim': 'text'}, inplace=True)
+        for df in (train_full, dev):
+            df.drop(columns=[c for c in df.columns if c not in ('text', 'label')], inplace=True)
+
+        from sklearn.model_selection import train_test_split as _tts
+        train, test = _tts(train_full, test_size=0.2, random_state=self.seed,
+                           stratify=train_full['label'])
+        train = train.reset_index(drop=True)
+        test  = test.reset_index(drop=True)
+
         return train, test, dev
-    
+
+    @staticmethod
+    def _scifact_claim_label(evidence: dict) -> str:
+        """Derive a claim-level veracity label from the per-doc evidence dict.
+        Evidence values may be None (no labelled sentences) or an array of
+        dicts with 'label' and 'sentences' keys.
+        """
+        if not evidence:
+            return "Not Enough Evidence"
+        labels = set()
+        for doc in evidence.values():
+            if doc is None:
+                continue
+            for e in doc:
+                labels.add(e["label"])
+        if "CONTRADICT" in labels:
+            return "Refuted"
+        if "SUPPORT" in labels:
+            return "Supported"
+        return "Not Enough Evidence"
+
     def scifact(self):
-        folder_path = os.path.join(os.getcwd(), "data", "SciFact")
+        # cleaned_datasets/scifact/test.pkl has no evidence labels (blind set)
+        # Use dev.pkl as test, split train.pkl 80/20 for train/val
+        folder_path = os.path.join(os.getcwd(), "data", "cleaned_datasets", "scifact")
 
-        train_path = os.path.join(folder_path, "claims_train.jsonl")
-        train = pd.read_json(train_path, lines=True)
-        test_path = os.path.join(folder_path, "claims_test.jsonl")
-        test = pd.read_json(test_path, lines=True)
-        dev_path = os.path.join(folder_path, "claims_dev.jsonl")
-        dev = pd.read_json(dev_path, lines=True)
+        train_full = pd.read_parquet(os.path.join(folder_path, "train.pkl"))
+        dev        = pd.read_parquet(os.path.join(folder_path, "dev.pkl"))
 
-        train.rename(columns={'claim': 'text'}, inplace=True)
-        test.rename(columns={'claim': 'text'}, inplace=True)
-        dev.rename(columns={'claim': 'text'}, inplace=True)
+        for df in (train_full, dev):
+            df['label'] = df['evidence'].apply(self._scifact_claim_label)
+            df.drop(columns=[c for c in df.columns if c not in ('text', 'label')], inplace=True)
+
+        from sklearn.model_selection import train_test_split as _tts
+        train, test = _tts(train_full, test_size=0.2, random_state=self.seed,
+                           stratify=train_full['label'])
+        train = train.reset_index(drop=True)
+        test  = test.reset_index(drop=True)
 
         return train, test, dev
     
     def climatecheck(self):
-        raw_dataset = load_dataset('rabuahmad/climatecheck', trust_remote_code=True)
-        train, test, dev = self.train_test_huggingface_datasets(raw_dataset, text_column='claim', label_column='annotation')
-        
-        train.rename(columns={'claim': 'text', 'annotation': 'label'}, inplace=True)
-        dev.rename(columns={'claim': 'text', 'annotation': 'label'}, inplace=True)
-        test.rename(columns={'claim': 'text', 'annotation': 'label'}, inplace=True)
+        # cleaned_datasets/climatecheck/test.pkl has all empty labels (blind set)
+        # Use dev.pkl as test, split train.pkl 80/20 for train/val
+        folder_path = os.path.join(os.getcwd(), "data", "cleaned_datasets", "climatecheck")
+
+        train_full = pd.read_parquet(os.path.join(folder_path, "train.pkl"))
+        dev        = pd.read_parquet(os.path.join(folder_path, "dev.pkl"))
+
+        for df in (train_full, dev):
+            df.drop(columns=[c for c in df.columns if c not in ('text', 'label')], inplace=True)
+            df.dropna(subset=['label'], inplace=True)
+            df.drop(df[df['label'] == ''].index, inplace=True)
+
+        from sklearn.model_selection import train_test_split as _tts
+        train, test = _tts(train_full, test_size=0.2, random_state=self.seed,
+                           stratify=train_full['label'])
+        train = train.reset_index(drop=True)
+        test  = test.reset_index(drop=True)
+
+        return train, test, dev
+
+    def climatefever(self):
+        _LABEL_MAP = {
+            0: "Supported",
+            1: "Refuted",
+            2: "Not Enough Evidence",
+            3: "Conflicting Evidence/Cherrypicking",
+        }
+        folder_path = os.path.join(os.getcwd(), "data", "cleaned_datasets", "climatefever")
+
+        train = pd.read_parquet(os.path.join(folder_path, "train.pkl"))
+        test  = pd.read_parquet(os.path.join(folder_path, "test.pkl"))
+        dev   = pd.read_parquet(os.path.join(folder_path, "dev.pkl"))
+
+        for df in (train, test, dev):
+            # One row per claim-evidence pair; deduplicate to claim level by claim_id
+            df['label'] = df['claim_label'].map(_LABEL_MAP)
+            df.drop_duplicates(subset='claim_id', keep='first', inplace=True)
+            df.drop(columns=[c for c in df.columns if c not in ('text', 'label')], inplace=True)
+
         return train, test, dev
 
     def climateFEVER_claim(self):
@@ -281,17 +342,6 @@ class DatasetBuilder():
         dev_ds.rename(columns={"text": "text", "hypothesis":"query"}, inplace=True)
 
         return train_ds, test_ds, dev_ds
-
-    def climatefever(self):
-        raw_dataset = load_dataset('tdiggelm/climate_fever', trust_remote_code=True)
-        train = raw_dataset['train'].to_pandas()
-        dev = raw_dataset['labelled_dev'].to_pandas() # unlabelled_dev, paper_dev
-        test = raw_dataset['unlabelled_test'].to_pandas() # paper_test
-        
-        train.rename(columns={'claim': 'text', 'claim_label': 'label'}, inplace=True)
-        test.rename(columns={'claim': 'text', 'claim_label': 'label'}, inplace=True)
-        dev.rename(columns={'claim': 'text', 'claim_label': 'label'}, inplace=True)
-        return train, test, dev
 
     def climateFEVER_evidence_climabench(self):
         folder_path = os.path.join(os.getcwd(), "data", "climate-FEVER")
