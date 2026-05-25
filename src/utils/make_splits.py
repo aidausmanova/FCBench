@@ -1,5 +1,5 @@
 """
-80/20 train/eval splits for averitec, SciFact, climatefever, climatecheck.
+80/20 train/eval splits for averitec, scifact, climatefever, climatecheck.
 - Splits are done on the existing train file only (dev/test copied as-is).
 - climatefever and climatecheck are split at claim_id level to prevent leakage.
 - Random seed is fixed for reproducibility.
@@ -11,8 +11,8 @@ import random
 import pandas as pd
 
 SEED = 42
-DATA_IN = "/storage/usmanova/FCBench/data"
-DATA_OUT = "/storage/usmanova/FCBench/data_new"
+DATA_IN = "FCBench/data"
+DATA_OUT = "FCBench/data_new"
 
 
 def split_80_20(items, seed=SEED):

@@ -1,13 +1,28 @@
 .idea/*
 
+nltk_data/
 .env
 test.ipynb
 logs/
 outputs/
 data/
 model_save/
+OLD_model_save/
+knowledge_store/
+experiment_results/cache/
+experiment_results/cartography/
+experiment_results/distilRoBERTa/
+experiment_results/figures/
+experiment_results/performances/
+experiment_results/label_mappings.json
+experiment_results/results.json
+huggingface_cache/
+data_store/
+data_new/
 
 src/analyse_dataset.ipynb
+
+CLAUDE.md
 
 *.log
 

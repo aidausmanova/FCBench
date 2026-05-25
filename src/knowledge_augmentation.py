@@ -182,34 +182,6 @@ def averitec_to_list(claims_path, knowledge_path):
             continue
     return evidence_list
 
-# def averitec_to_list(claims_path, knowledge_path):
-#     with open(claims_path, "r", encoding="utf-8") as fp:
-#         claims_dataset = json.load(fp)
-#         claims_count = len(claims_dataset)
-
-#     all_evidences = []
-
-#     for index_id in tqdm(range(0, claims_count)):
-#         claim_object = claims_dataset[index_id]
-#         claim_evidences = []
-#         try:
-#             claim_evidence_file = os.path.join(knowledge_path, f"{claim_object.get('claim_id', index_id)}.json")
-#             with open(claim_evidence_file, 'r', encoding='utf-8') as f:
-#                 # df = pd.DataFrame([json.loads(line) for line in f if line.strip()])
-#                 for line in f:
-#                     json_obj = json.loads(line)
-#                     if not json_obj:
-#                         continue
-#                     claim_evidences.append({
-#                         "claim_id": json_obj.get("claim_id"),
-#                         "url":      json_obj.get("url"),
-#                         "text":     " ".join(json_obj.get("url2text", []))
-#                     })
-#             all_evidences.extend(claim_evidences)
-#         except Exception as e:
-#             print(f"ERROR processing claim {index_id}: {e}")
-#     return all_evidences
-
 def fever_to_list(knowledge_path):
     all_evidences = []
 
@@ -339,24 +311,16 @@ if __name__ == "__main__":
 
 
     if dataset == "averitec":
-        claims_path = "/storage/usmanova/FCBench/data/averitec/dev.json"
-        knowledge_store_path = "/storage/usmanova/FCBench/knowledge_store/averitec/"
+        claims_path = "FCBench/data/averitec/dev.json"
+        knowledge_store_path = "FCBench/knowledge_store/averitec/"
         evidence_list = averitec_to_list(claims_path, knowledge_store_path)
 
-    elif dataset == "fever":
-        knowledge_store_path = "/storage/usmanova/FCBench/knowledge_store/fever/"
-        evidence_list = fever_to_list(knowledge_store_path)
-
-    elif dataset == "feverous":
-        knowledge_store_path = "/storage/usmanova/FCBench/knowledge_store/"
-        evidence_list = feverous_to_list(knowledge_store_path)
-
     elif dataset == "scifact":
-        knowledge_store_path = "/storage/usmanova/FCBench/knowledge_store/scifact/corpus.jsonl"
+        knowledge_store_path = "FCBench/knowledge_store/scifact/corpus.jsonl"
         evidence_list = scifact_to_list(knowledge_store_path)
 
     elif dataset == "climatecheck":
-        knowledge_store_path = "/storage/usmanova/FCBench/knowledge_store/climatecheck/corpus.json"
+        knowledge_store_path = "FCBench/knowledge_store/climatecheck/corpus.json"
         evidence_list = climatecheck_to_list(knowledge_store_path)
 
     elif dataset == "climatefever":

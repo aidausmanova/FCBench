@@ -8,8 +8,8 @@ import time
 
 from openai import OpenAI
 
-BASE_URL = 'https://chat-ai.academiccloud.de/v1'
-CHAT_AI_KEY = "c65f0464fa6fe9251d15f09b120f3583"
+BASE_URL = os.environ['BASE_URL'] 
+CHAT_AI_KEY = os.environ['CHAT_AI_KEY'] 
 
 def _make_instructions(labels: list[str], with_evidence: bool) -> str:
     label_descriptions = {

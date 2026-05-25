@@ -1,37 +1,13 @@
 """
 experiment_retrieval.py — Veracity prediction with TF-IDF-retrieved evidence.
 
-Pipeline
---------
-  Train : raw claim text  →  fine-tune Longformer / DistilROBERTa
-  Eval  : claim + tfidf-retrieved evidence  →  same model  →  veracity label
-
-The dev split (dev.pkl) aligns with
-  experiment_results/{dataset}/tfidf_retrieval.json
-which is used to augment each dev claim with its retrieved evidence passages
-at both validation (early stopping) and final evaluation time.
-
 Output
 ------
   experiment_results/{dataset}/tfidf_{model}_seed{seed}_veracity_prediction.json
-  Each record: {claim_id, claim, evidence, pred_label}
 
-Usage examples
---------------
-  # Longformer (single GPU recommended)
-  CUDA_VISIBLE_DEVICES=0 python3 -m src.experiment_retrieval \\
-      --log logs/retrieval/longformer --reset -l \\
-      --batch_size 2 --accumulation_steps 16
-
-  # DistilROBERTa
-  CUDA_VISIBLE_DEVICES=0 python3 -m src.experiment_retrieval \\
-      --log logs/retrieval/distilroberta --reset -d \\
-      --batch_size 16 --accumulation_steps 2
-
-  # Both models, specific datasets/seeds
   CUDA_VISIBLE_DEVICES=0 python3 -m src.experiment_retrieval \\
       --log logs/retrieval/all --reset -l -d \\
-      --dataset_list averitec scifact \\
+      --dataset_list averitec scifact climatecheck climatefever \\
       --seed_list 42 43 27 \\
       --batch_size 4 --accumulation_steps 8
 """
@@ -96,11 +72,6 @@ def is_main_process() -> bool:
     return int(os.environ.get("LOCAL_RANK", 0)) == 0
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Label helpers
-# ─────────────────────────────────────────────────────────────────────────────
-
-
 def _scifact_label(evidence: dict) -> str:
     """Derive claim-level veracity label from SciFact's per-doc evidence dict."""
     if not evidence:
@@ -116,11 +87,6 @@ def _scifact_label(evidence: dict) -> str:
     if "SUPPORT" in labels:
         return "Supported"
     return "Not Enough Evidence"
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Dataset loading
-# ─────────────────────────────────────────────────────────────────────────────
 
 
 def load_splits(dataset_name: str, seed: int):
@@ -193,11 +159,6 @@ def load_splits(dataset_name: str, seed: int):
     raise ValueError(f"Unknown dataset: {dataset_name!r}")
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Retrieval
-# ─────────────────────────────────────────────────────────────────────────────
-
-
 def load_retrieval(dataset_name: str) -> dict:
     """Load experiment_results/{dataset}/tfidf_retrieval.json."""
     path = os.path.join("experiment_results", dataset_name, "tfidf_retrieval.json")
@@ -212,11 +173,6 @@ def build_input_text(claim: str, evidences: list) -> str:
     return (claim + " [SEP] " + " ".join(ev_parts)) if ev_parts else claim
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Output
-# ─────────────────────────────────────────────────────────────────────────────
-
-
 def save_predictions(
     dataset_name: str,
     model_key: str,
@@ -227,9 +183,6 @@ def save_predictions(
 ) -> None:
     """Write per-claim predictions to
       experiment_results/{dataset}/tfidf_{model}_seed{seed}_veracity_prediction.json
-
-    Each record includes the retrieved evidence passages alongside the prediction
-    so the output is self-contained for downstream evaluation.
     """
     records = []
     for (_, row), pred in zip(dev_df.iterrows(), y_pred):
@@ -284,9 +237,6 @@ def run_transformer(
     Training input  : raw claim text only.
     Validation input: claim + tfidf-retrieved evidence  (early stopping signal).
     Test input      : claim + tfidf-retrieved evidence  (final evaluation).
-
-    Note: the dev split is used for both validation and test since
-    tfidf_retrieval.json only covers the dev split.
     """
     # ── Build texts ──────────────────────────────────────────────────────────
     X_train = train_df["text"].tolist()

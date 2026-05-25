@@ -53,9 +53,7 @@ def set_seed(seed, lonformer):
     torch.cuda.manual_seed_all(seed)
 
 def load_dataset(dataset_name):
-    # dataset_path = os.path.join(os.getcwd(), "data", "cleaned_datasets", dataset_name)
-
-    dataset_path = os.path.join(os.getcwd(), "data", "green_nlp_tasks", dataset_name)
+    dataset_path = os.path.join(os.getcwd(), "data", "cleaned_datasets", dataset_name)
     train = pd.read_parquet(os.path.join(dataset_path, "train.pkl"))
     test = pd.read_parquet(os.path.join(dataset_path, "test.pkl"))
     dev = pd.read_parquet(os.path.join(dataset_path, "dev.pkl"))
@@ -98,21 +96,6 @@ def generate_args(dataset_builder, dataset_list, logger):
             "balanced": "balanced",
             "weighted_loss": False,
         }
-
-    # for dataset_name in dataset_builder.relation_datasets.keys():
-    #     args[dataset_name] = {
-    #         "function": dataset_builder.relation_datasets[dataset_name],
-    #         "training_function": train_baselines_relation,
-    #         "stratify_on": "query",
-    #         "label_columns": 'label',
-    #         "input_columns": ['text', 'query'],
-    #         "classification_type": "relation/stance",
-    #         "balanced": "random",
-    #         "weighted_loss": False,
-    #     }
-
-    # for dataset_name in ["climateFEVER_evidence", "climateFEVER_evidence_climabench"]:
-    #     args[dataset_name]["weighted_loss"] = True
 
     # Keep a subset of datasets
     args = {key: args[key] for key in dataset_list if key in args}
@@ -219,15 +202,8 @@ def experiment_loop(dataset_builder, logger, seed, dataset_list, batch_size, acc
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Experiments for greenwashing automatic detection, intermediary tasks")
     parser.add_argument("--log", type=str, help="The name of the output log file", required = True)
-    parser.add_argument("--seed_list",
-        nargs='+',  # Accepts one or more arguments
-        type=int, help="List of seeds"
-    )
-    # Define an argument that takes a list of strings
-    parser.add_argument("--dataset_list",
-        nargs='+',  # Accepts one or more arguments
-        type=str, help="A list of strings"
-    )
+    parser.add_argument("--seed_list", nargs='+', type=int, help="List of seeds")
+    parser.add_argument("--dataset_list", nargs='+', type=str, help="A list of strings")
     parser.add_argument("--reset", action="store_true", help="Clear existing log file and re-run all datasets")
     parser.add_argument("-b", "--baseline", action="store_true", help="Run the baseline experiments")
     parser.add_argument("-l", "--longformer", action="store_true", help="Run the longformer experiments")
