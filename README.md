@@ -1,4 +1,4 @@
-# Transferable Evaluation of Evidence Retrieval and Claim Verification across Fact-Checking Benchmarks
+# How Robust Are Automated Fact-Checking Systems? A Cross-Benchmark Evaluation
 
 FCBench is a modular benchmark framework for evaluating fact-checking pipelines across four datasets. It separates evidence retrieval from veracity prediction to pinpoint where systems fail — in finding evidence or in reasoning over it.
 
